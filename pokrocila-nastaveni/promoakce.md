@@ -20,7 +20,7 @@ Vedle klasických tlačítek - **SMAŽ/EDIT/DETAIL** \(detail zobrazuje všechny
 * Kopírování promoakcí – tlačítko **KOPIE**. KOPIE otevře editaci nové Promoakce, se všemi položkami stejnými jako u původní.
 * Tlačítko **SPUSTIT CACHE**, které spustí robota pro načtení informací o letech z rezervačního systému. Aby mohla být Promoakce zobrazována na FE, je třeba mít zaškrtnut check-box: „Zobrazovat“ v detailu Promoakce.
 
-![](https://bo.golibe.com/help/cz/lib/NewItem206.png)
+![](../.gitbook/assets/image%20%289%29.png)
 
 ### Editace/Přidání nové promoakce
 
@@ -28,7 +28,7 @@ Stránka nastavení Promoakce je rozdělena do několika sekcí \(povinné polo�
 
 ## 1. Základní nastavení Promoakce
 
-![](https://bo.golibe.com/help/cz/lib/NewItem218.png)
+![](../.gitbook/assets/image%20%2816%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
@@ -97,11 +97,7 @@ Informace o dostupnosti je občerstvována na základě používání Promoakcí
     </tr>
   </thead>
   <tbody></tbody>
-</table>| **Dny do odletu** | Pole pro vložení MAX/MIN dní do odletu. |
-| :--- | :--- |
-
-
-Každá část cesty musí být nadefinována. Pro jednoduchá nepřestupní spojení, např. VIE-CDG, je nutné v sekci "Cesta tam" definovat spojení dle obrázku níže. Pokud je spojení přestupní, např. VIE-FRA-CDG, je nutné nejdříve nadefinovat spojení VIE-FRA a klikem na tlačítko "Přidat další segment letu pro stejný směr" přidat pole, do kterého vyplníte druhý úsek cesty FRA-CDG.
+</table>Každá část cesty musí být nadefinována. Pro jednoduchá nepřestupní spojení, např. VIE-CDG, je nutné v sekci "Cesta tam" definovat spojení dle obrázku níže. Pokud je spojení přestupní, např. VIE-FRA-CDG, je nutné nejdříve nadefinovat spojení VIE-FRA a klikem na tlačítko "Přidat další segment letu pro stejný směr" přidat pole, do kterého vyplníte druhý úsek cesty FRA-CDG.
 
 Pokud je cesta zpáteční, je třeba to samé pro sekci "Cesta zpět". Cesta zpět lze vytvořit za pomoci tlačítek "Přidat cestu zpět" pro stejný systém zadávání, jako je tomu pro "Cesta tam", nebo za pomoci tlačítka "Vytvořit automaticky cestu zpět", která vytvoří automaticky zrcadlově zadání pro cestu zpět.
 

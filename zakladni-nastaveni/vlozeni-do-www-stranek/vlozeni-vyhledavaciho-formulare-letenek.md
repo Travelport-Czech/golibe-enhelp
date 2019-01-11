@@ -6,11 +6,11 @@ Vyhledávací formulář letenek je možné implementovat jako:
 
 Formulář je responzivní a přizpůsobuje se různým velikostem stránky \(zobrazení na mobilních zařízeních\).
 
-![](../../.gitbook/assets/image%20%2821%29.png)
+![](../../.gitbook/assets/image%20%2825%29.png)
 
 Příklad zobrazení při změnách velikosti okna \(na mobilních zařízeních\):
 
-![](../../.gitbook/assets/image%20%2830%29.png)
+![](../../.gitbook/assets/image%20%284%29.png)
 
 HTML balíček si stáhnete z administračního zázemí:
 

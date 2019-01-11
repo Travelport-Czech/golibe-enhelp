@@ -18,7 +18,7 @@ Zkontrolujte si, že je vyhledávací formulář vložen celý a je správně vi
 
 Níže se můžete podívat na statistiku, jak jsou využívány prohlížeče. Statistika se může lišit podle země a měnit se časem. Rozhodně ale neuděláte chybu, pokud se zaměříte na 5 nejvýznamnějších prohlížečů a vyzkoušíte, zda a jak v nich zobrazíte své stránky včetně vyhledávače letenek. Pokud budete chtít přesné měření, jaké prohlížeče konkrétně Vaši zákazníci používají, nasaďte si na web nějaké měření jako například [Google Analytics](https://marketingplatform.google.com/about/analytics/). Vaši webdesignéři Vám s tím určitě pomohou a Vám to přinese možnost vážit přesněji ekonomický přínos vynaložených nákladů za přizpůsobení stránek všem prohlížečům vs. návštěvnost.
 
-![Vyu&#x17E;it&#xED; prohl&#xED;&#x17E;e&#x10D;&#x16F;: Zdroj: https://www.w3counter.com/globalstats.php / August 2018](.gitbook/assets/image%20%2829%29.png)
+![Vyu&#x17E;it&#xED; prohl&#xED;&#x17E;e&#x10D;&#x16F;: Zdroj: https://www.w3counter.com/globalstats.php / August 2018](.gitbook/assets/image-29.png)
 
 * **Zobrazují se vaše stránky správně všem uživatelům?**
 
@@ -28,7 +28,7 @@ Dejte pozor na to, že pokud si dáte na stránky všechna možná měření a a
 
 Počet uživatelů, kteří vyhledávají na svých chytrých telefonech, stále stoupá. Jsou vaše www stránky přizpůsobeny, aby měl zákazník šanci na vašich stránkách něco přečíst a případně si vyhledávat letenku. V neposlední řadě vyhledávače jako Google hodnotí responzivitu jako velmi významný parametr a může to zásadně ovlivnit vyhledávatelnost vašich stránek.
 
-![Vyu&#x17E;it&#xED; prohl&#xED;&#x17E;e&#x10D;&#x16F; na mobiln&#xED;ch telefonech: Zdroj: http://gs.statcounter.com](.gitbook/assets/image%20%285%29.png)
+![Vyu&#x17E;it&#xED; prohl&#xED;&#x17E;e&#x10D;&#x16F; na mobiln&#xED;ch telefonech: Zdroj: http://gs.statcounter.com](.gitbook/assets/image-5.png)
 
 ## Prodej letenek
 
