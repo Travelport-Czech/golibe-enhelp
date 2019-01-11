@@ -20,7 +20,7 @@ Vedle klasických tlačítek - **SMAŽ/EDIT/DETAIL** \(detail zobrazuje všechny
 * Kopírování promoakcí – tlačítko **KOPIE**. KOPIE otevře editaci nové Promoakce, se všemi položkami stejnými jako u původní.
 * Tlačítko **SPUSTIT CACHE**, které spustí robota pro načtení informací o letech z rezervačního systému. Aby mohla být Promoakce zobrazována na FE, je třeba mít zaškrtnut check-box: „Zobrazovat“ v detailu Promoakce.
 
-![](../.gitbook/assets/image%20%289%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 
 ### Editace/Přidání nové promoakce
 
@@ -28,7 +28,7 @@ Stránka nastavení Promoakce je rozdělena do několika sekcí \(povinné polo�
 
 ## 1. Základní nastavení Promoakce
 
-![](../.gitbook/assets/image%20%2814%29.png)
+![](../.gitbook/assets/image%20%2821%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
@@ -39,7 +39,7 @@ Stránka nastavení Promoakce je rozdělena do několika sekcí \(povinné polo�
 
 ## 2. Nastavení ceny a poplatků
 
-![](../.gitbook/assets/image%20%2812%29.png)
+![](../.gitbook/assets/image%20%283%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
@@ -52,7 +52,7 @@ Stránka nastavení Promoakce je rozdělena do několika sekcí \(povinné polo�
 
 ## 3. Statistika promoakce
 
-![](https://bo.golibe.com/help/cz/lib/NewItem260.png)
+![](../.gitbook/assets/image%20%2823%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
@@ -68,7 +68,7 @@ Informace o dostupnosti je občerstvována na základě používání Promoakcí
 
 ## 4. Stav Promoakce
 
-![](https://bo.golibe.com/help/cz/lib/NewItem261.png)
+![](../.gitbook/assets/image%20%281%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
@@ -82,33 +82,34 @@ Informace o dostupnosti je občerstvována na základě používání Promoakcí
 
 ## 5. Obecná omezení Promoakce
 
-![](https://bo.golibe.com/help/cz/lib/NewItem212.png)
-
-| Pole | Popis |
-| :--- | :--- |
-
+![](../.gitbook/assets/image%20%286%29.png)
 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left"><b>Min/Max stay</b>
-      </th>
-      <th style="text-align:left">
+      <th style="text-align:left">Pole</th>
+      <th style="text-align:left">Popis</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><b>Min/Max stay</b>
+      </td>
+      <td style="text-align:left">
         <p>Pole pro upřesnění omezení letů. V pořadí:</p>
         <p>1. pole – číslovka značící počet dnů, nebo text SU v případě, kdy je potřeba
           aplikovat pravidlo Sunday Rule.</p>
         <p>2. pole (výběr) – upřesnění pro 1. pole, zda se jedná o dny či měsíce.</p>
         <p>3. pole (výběr) – upřesnění celého pravidla, zda určuje minimální či maximální
           počet dní / měsíců.</p>
-      </th>
+      </td>
     </tr>
-  </thead>
-  <tbody></tbody>
+  </tbody>
 </table>Každá část cesty musí být nadefinována. Pro jednoduchá nepřestupní spojení, např. VIE-CDG, je nutné v sekci "Cesta tam" definovat spojení dle obrázku níže. Pokud je spojení přestupní, např. VIE-FRA-CDG, je nutné nejdříve nadefinovat spojení VIE-FRA a klikem na tlačítko "Přidat další segment letu pro stejný směr" přidat pole, do kterého vyplníte druhý úsek cesty FRA-CDG.
 
 Pokud je cesta zpáteční, je třeba to samé pro sekci "Cesta zpět". Cesta zpět lze vytvořit za pomoci tlačítek "Přidat cestu zpět" pro stejný systém zadávání, jako je tomu pro "Cesta tam", nebo za pomoci tlačítka "Vytvořit automaticky cestu zpět", která vytvoří automaticky zrcadlově zadání pro cestu zpět.
 
-![](https://bo.golibe.com/help/cz/lib/NewItem213.png)
+![](../.gitbook/assets/image%20%2818%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
@@ -119,13 +120,6 @@ Pokud je cesta zpáteční, je třeba to samé pro sekci "Cesta zpět". Cesta zp
 | **Fare Basis Code** | Fare Basis, kterým je oceněna tato část letu. |
 | **Fare Basis dopravce** | Kód dopravce, kterému patří Fare Basis \(uvedeno na Fare Display\). V některých případech může letět jiný marketingový dopravce na Fare Basis svého interline partnera. |
 | **Tlačítko "Aktualizovat podmínky"** | Toto tlačítko znovu načte tarifní podmínky z rezervačního systému. Podmínky jsou zobrazovány v dalších záložkách. |
-
-![](https://bo.golibe.com/help/cz/lib/NewItem214.png)
-
-| Pole | Popis |
-| :--- | :--- |
-| **Časová omezení** | Pole pro výběr intervalu dní od /do, výběr dnů v týdnu a definic, zda je pravidlo povolující nebo zakazující. |
-| **Podmínky** | Textové pole pro zobrazení vybraných pasáží tarifních podmínek v originální textové podobě. |
 
 ![](https://bo.golibe.com/help/cz/lib/NewItem215.png)
 
