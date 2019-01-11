@@ -26,7 +26,7 @@ Do sekce Úprava pracovní doby se dostanete přes menu **Agentura -&gt; Úprava
 
 Slouží k definování výjimek z nastavené Pracovní doby, tj. definuje svátky a jiné dny, kdy agentura nepracuje. V současné době neexistuje číselník, který by upravoval státní svátky. Pokud agentura potřebuje tyto možnosti ošetřit, pak je nutné svátky ručně zadat.
 
-![](../.gitbook/assets/image%20%2813%29.png)
+![](../.gitbook/assets/image%20%2815%29.png)
 
 {% hint style="warning" %}
 Pokud uživatel zadá pouze datum, určuje tím, že agentura nepracuje celý den. Pokud zadá časy od – do, zužuje tím pracovní dobu v daný den pouze na uvedený interval hodin.

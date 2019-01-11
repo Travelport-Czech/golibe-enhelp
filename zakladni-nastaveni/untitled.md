@@ -8,13 +8,13 @@ Pokud využíváte Dealerský prodej, nebo potřebujete definovat servisní popl
 
 Pro přidání nového servisního poplatku klikněte na tlačítko:
 
-![](../.gitbook/assets/image%20%2815%29.png)
+![](../.gitbook/assets/image%20%2817%29.png)
 
 ## 1. Zvolte leteckou společnost
 
 Letecká společnost může zůstat nevyplněna, a v tom případě platí pravidlo pro všechny airlines.
 
-![](../.gitbook/assets/image%20%2814%29.png)
+![](../.gitbook/assets/image%20%2816%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
@@ -24,13 +24,13 @@ Letecká společnost může zůstat nevyplněna, a v tom případě platí pravi
 
 ## 2. Zvolte podmínky platnosti
 
-![](../.gitbook/assets/image%20%2822%29.png)
+![](../.gitbook/assets/image%20%2824%29.png)
 
 | **Pole** | Popis |
 | :--- | :--- |
 | **Podmínky platnosti** | Obecně platné - platí bez jakýchkoliv omezení |
 
-![](../.gitbook/assets/image%20%2812%29.png)
+![](../.gitbook/assets/image%20%2813%29.png)
 
 | **Pole** | Popis |
 | :--- | :--- |
@@ -61,7 +61,7 @@ Letecká společnost může zůstat nevyplněna, a v tom případě platí pravi
 | **Stanovená výše poplatku** | Fixní poplatek - pevná částka ve výchozí měně agentury. |
 | **Fixní poplatek** | Číselná hodnota poplatku |
 
-![](../.gitbook/assets/image%20%2819%29.png)
+![](../.gitbook/assets/image%20%2821%29.png)
 
 | **Pole** | Popis |
 | :--- | :--- |
@@ -93,7 +93,7 @@ a\) **Máte více Dealerů \(webů\)** a každému chcete nadefinovat jiný serv
 
 **b\) Máte registrovaného zákazníka**, kterému chcete přiřadit jeho vlastní servisní poplatek. Obvykle se to používá v situacích, kdy máte nějakého důležitého zákazníka \(nebo firmu\), se kterým máte dohodnuty speciální podmínky a speciální výši servisních poplatků.
 
-![](../.gitbook/assets/image%20%2821%29.png)
+![](../.gitbook/assets/image%20%2823%29.png)
 
 | **Pole** | Popis |
 | :--- | :--- |
