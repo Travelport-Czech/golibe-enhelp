@@ -20,7 +20,7 @@ Vedle klasických tlačítek - **SMAŽ/EDIT/DETAIL** \(detail zobrazuje všechny
 * Kopírování promoakcí – tlačítko **KOPIE**. KOPIE otevře editaci nové Promoakce, se všemi položkami stejnými jako u původní.
 * Tlačítko **SPUSTIT CACHE**, které spustí robota pro načtení informací o letech z rezervačního systému. Aby mohla být Promoakce zobrazována na FE, je třeba mít zaškrtnut check-box: „Zobrazovat“ v detailu Promoakce.
 
-![](../.gitbook/assets/image%20%2815%29.png)
+![](../.gitbook/assets/image%20%2824%29.png)
 
 ### Editace/Přidání nové promoakce
 
@@ -28,7 +28,7 @@ Stránka nastavení Promoakce je rozdělena do několika sekcí \(povinné polo�
 
 ## 1. Základní nastavení Promoakce
 
-![](../.gitbook/assets/image%20%2823%29.png)
+![](../.gitbook/assets/image%20%2833%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
@@ -52,7 +52,7 @@ Stránka nastavení Promoakce je rozdělena do několika sekcí \(povinné polo�
 
 ## 3. Statistika promoakce
 
-![](../.gitbook/assets/image%20%2827%29.png)
+![](../.gitbook/assets/image%20%2840%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
@@ -82,7 +82,7 @@ Informace o dostupnosti je občerstvována na základě používání Promoakcí
 
 ## 5. Obecná omezení Promoakce
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image%20%2811%29.png)
 
 <table>
   <thead>
@@ -109,7 +109,7 @@ Informace o dostupnosti je občerstvována na základě používání Promoakcí
 
 Pokud je cesta zpáteční, je třeba to samé pro sekci "Cesta zpět". Cesta zpět lze vytvořit za pomoci tlačítek "Přidat cestu zpět" pro stejný systém zadávání, jako je tomu pro "Cesta tam", nebo za pomoci tlačítka "Vytvořit automaticky cestu zpět", která vytvoří automaticky zrcadlově zadání pro cestu zpět.
 
-![](../.gitbook/assets/image%20%2819%29.png)
+![](../.gitbook/assets/image%20%2829%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
@@ -121,7 +121,7 @@ Pokud je cesta zpáteční, je třeba to samé pro sekci "Cesta zpět". Cesta zp
 | **Fare Basis dopravce** | Kód dopravce, kterému patří Fare Basis \(uvedeno na Fare Display\). V některých případech může letět jiný marketingový dopravce na Fare Basis svého interline partnera. |
 | **Tlačítko "Aktualizovat podmínky"** | Toto tlačítko znovu načte tarifní podmínky z rezervačního systému. Podmínky jsou zobrazovány v dalších záložkách. |
 
-![](../.gitbook/assets/image%20%2824%29.png)
+![](../.gitbook/assets/image%20%2836%29.png)
 
 | Pole | Popis |
 | :--- | :--- |

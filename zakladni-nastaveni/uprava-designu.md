@@ -4,13 +4,13 @@
 
 V menu **Dealeři** vyberte dealera \(web\), který máte zájem upravovat. Klikněte na příslušném řádku na **DETAIL** a v otevřené stránce klikněte na:
 
-![](../.gitbook/assets/image%20%2825%29.png)
+![](../.gitbook/assets/image%20%2838%29.png)
 
 Zde si můžete měnit barevná nastavení, nahrávat vlastní tlačítka apod.
 
-![](../.gitbook/assets/image%20%2812%29.png)
+![](../.gitbook/assets/image%20%2819%29.png)
 
-![](../.gitbook/assets/image%20%2832%29.png)
+![](../.gitbook/assets/image%20%2847%29.png)
 
 {% hint style="info" %}
 Pokud budou vaše požadavky náročnější a budete chtít zasahovat i do podoby zobrazených informací z vyhledávání a celého rezervačního procesu, nabízíme vám přístup k úpravě stylování, kde vaši webdesignéři budou moci upravovat CSS styly. K tomu máme připraveny i nástroje pro nasazování. Je zde ale potřeba vyjmout váš web ze standardních, a s každým nasazením nové funkcionality mající vliv na zobrazení je nutné překontrolovat, že vše správně funguje. Pokud máte o toto řešení zájem, kontaktujte nás.

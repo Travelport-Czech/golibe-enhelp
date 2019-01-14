@@ -4,7 +4,7 @@ Stránka slouží k nastavení pracovní doby agentury tak, aby bylo zabráněno
 
 Na nastavení pracovní doby se dostanete přes menu **Agentura -&gt; Pracovní doba**.
 
-![](../.gitbook/assets/image%20%2816%29.png)
+![](../.gitbook/assets/image%20%2825%29.png)
 
 Pro jednotlivé dny lze nastavit pracovní dobu s polední přestávkou, například 9:00 – 11:30, 12:00 – 17:30. Pokud nemá agentura polední přestávku, je nutné nastavit celou pracovní dobu 9:00 – 18:30 do polí určených pro dopoledne.
 
@@ -26,7 +26,7 @@ Do sekce Úprava pracovní doby se dostanete přes menu **Agentura -&gt; Úprava
 
 Slouží k definování výjimek z nastavené Pracovní doby, tj. definuje svátky a jiné dny, kdy agentura nepracuje. V současné době neexistuje číselník, který by upravoval státní svátky. Pokud agentura potřebuje tyto možnosti ošetřit, pak je nutné svátky ručně zadat.
 
-![](../.gitbook/assets/image%20%2826%29.png)
+![](../.gitbook/assets/image%20%2839%29.png)
 
 {% hint style="warning" %}
 Pokud uživatel zadá pouze datum, určuje tím, že agentura nepracuje celý den. Pokud zadá časy od – do, zužuje tím pracovní dobu v daný den pouze na uvedený interval hodin.

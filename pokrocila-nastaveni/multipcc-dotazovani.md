@@ -6,21 +6,21 @@ Tato sekce slouží k založení profilů pro dotazování na jiných PCC, než 
 
 Seznam nastavených profilů
 
-![](https://bo.golibe.com/help/cz/lib/NewItem242.png)
+![](../.gitbook/assets/image%20%2818%29.png)
 
-Úprava profilu MultiPCC dotazování
+**Úprava profilu MultiPCC dotazování**
 
 Úpravy je možné provádět kliknutím na tlačítko Edit na řádku příslušného profilu.
 
 Základní nastavení týkající se komunikace s GDS zůstává stejné jako u [Nastavení agentury](https://bo.golibe.com/help/cz/Nastaveniagentury.html).
 
-![](https://bo.golibe.com/help/cz/lib/NewItem243.png)
+![](../.gitbook/assets/image%20%2816%29.png)
 
-![](https://bo.golibe.com/help/cz/lib/NewItem244.png)
+![](../.gitbook/assets/image%20%2837%29.png)
 
 Nastavení je rozšířeno o sekci Měna a převod.
 
-![](https://bo.golibe.com/help/cz/lib/NewItem245.png)
+![](../.gitbook/assets/image%20%2856%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
