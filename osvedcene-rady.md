@@ -28,13 +28,13 @@ Be careful about adding too many measurements, third-party applications for cust
 
 The number of users who search through their smartphones is rising. Is your website mobile responsive so that your customers can read it and possibly book air tickets? Moreover, search engines such as Google consider responsiveness of your website as a very important parameter when it comes to rating, and this may fundamentally affect the searchability of your website.
 
-![Vyu&#x17E;it&#xED; prohl&#xED;&#x17E;e&#x10D;&#x16F; na mobiln&#xED;ch telefonech: Zdroj: http://gs.statcounter.com](.gitbook/assets/image-5.png)
+![Usage share of web browsers on mobile phones. Source: http://gs.statcounter.com](.gitbook/assets/image-5.png)
 
-## Prodej letenek
+## Air ticket sales
 
-* **Stihnou zákazníci rezervovat?**
+* **Can your customers book whenever they want to?**
 
-Položte si otázku, kdy vaši zákazníci chtějí vytvářet rezervace. Jsou to pouze firemní cestující a zvládnou to v běžné pracovní době? Nebo jsou to jednotlivci, kteří chtějí rezervovat večer, nebo o víkendu? Velké množství jich skutečně rezervuje i v nekomerčních časech. V zaměstnání se podívají a rezervují večer, po dohodě s rodinou, nebo tehdy kdy budou mít více času plánovat cestu. Máte nastaveno omezení pracovní doby vaší on-line aplikace? Neztratíte klienty, pokud budou vědět že je aplikace obslouží jen někdy? Víme, že je to obtížné, ale pokud se rozhodnete mít na webu otevřeno 24x7, pak můžeme nastavit notifikace o tom, že se někdo vytvořil rezervaci, pokud je k dispozici platební brána, může zákazník zaplatit a automaticky si nechat vystavit letenku. E-mailová upozornění pak mohou chodit, jen pokud se nepodaří letenku automaticky vystavit apod.
+Think about when your customers want to book on your website. Are they only corporate customers and do they manage to make bookings during their office hours? Or are they also individuals who want to book in the evening or during the weekend? A lot of them indeed make bookings also outside of their offices. They may check out the offers while at work, but they book in the evening after consulting their family, or just when they have more time to plan their trip. Have you set up limited working hours for your online booking engine? Can't you lose customers, if they find out that they can book on your website only sometimes? We understand it can be difficult but if you decide to have your website open 24/7, we can help you set up notifications when someone makes a booking. If you use one of the integrated payment gateways, the customer can pay instantly and GOL IBE then automatically issues an e-ticket. You can also receive email notifications only if the e-ticket cannot be automatically issued etc.
 
 * **Stihnou zákazníci zaplatit?**
 
