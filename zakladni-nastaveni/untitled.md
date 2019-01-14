@@ -24,7 +24,7 @@ Letecká společnost může zůstat nevyplněna, a v tom případě platí pravi
 
 ## 2. Zvolte podmínky platnosti
 
-![](../.gitbook/assets/image%20%2832%29.png)
+![](../.gitbook/assets/image%20%2833%29.png)
 
 | **Pole** | Popis |
 | :--- | :--- |

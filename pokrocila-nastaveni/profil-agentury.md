@@ -51,7 +51,7 @@ Slouží k nastavení konektoru pro letenky z GDS Galileo
 | **PNR Queue number** | Queue v rámci výše nastaveného PCC, na které budou zasílány vytvořené rezervace. |
 | **PNR Queue category** | Kategorie queue, pokud tyto agentura využívá pro třídění zpráv. |
 
-![](../.gitbook/assets/image%20%2835%29.png)
+![](../.gitbook/assets/image%20%2836%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
@@ -61,7 +61,7 @@ Slouží k nastavení konektoru pro letenky z GDS Galileo
 
 ### Nastavení sekundární komunikace s GDS Galileo
 
-![](../.gitbook/assets/image%20%2834%29.png)
+![](../.gitbook/assets/image%20%2835%29.png)
 
 Nastavení je obdobné jako pro Primární HAP. Sekundární HAP je využíván, pokud máte více PCC s rozdílným nastavením a z nějakého důvodu potřebujete vyhledávat na dvou PCC najednou a sloučit výsledky. Pro správné fungování je potřeba ještě nastavit v sekci **Paralelní dotazování**.
 

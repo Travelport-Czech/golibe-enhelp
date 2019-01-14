@@ -121,13 +121,6 @@ Pokud je cesta zpáteční, je třeba to samé pro sekci "Cesta zpět". Cesta zp
 | **Fare Basis dopravce** | Kód dopravce, kterému patří Fare Basis \(uvedeno na Fare Display\). V některých případech může letět jiný marketingový dopravce na Fare Basis svého interline partnera. |
 | **Tlačítko "Aktualizovat podmínky"** | Toto tlačítko znovu načte tarifní podmínky z rezervačního systému. Podmínky jsou zobrazovány v dalších záložkách. |
 
-![](https://bo.golibe.com/help/cz/lib/NewItem215.png)
-
-| Pole | Popis |
-| :--- | :--- |
-| **Čísla letů** | Pole pro zadání letecké společnosti, rozsahu čísel letů a definic, zda je pravidlo povolující nebo zakazující. |
-| **Podmínky** | Textové pole pro zobrazení vybraných pasáží tarifních podmínek v originální textové podobě. |
-
 ![](https://bo.golibe.com/help/cz/lib/NewItem216.png)
 
 | Pole | Popis |
@@ -135,12 +128,6 @@ Pokud je cesta zpáteční, je třeba to samé pro sekci "Cesta zpět". Cesta zp
 | **Hledat společně s následujícím** | Je-li zaškrtnuto, availabilita se ověřuje společně s následujícím segmentem pomocí O&D, tedy na celou cestu. V opačném případě je availabilita ověřována jednotlivě po segmentech pro každou část cesty zvlášť. |
 | **Inhibit status link** | Je-li zaškrtnuto, není ani v případech, ve kterých je to možné, availabilita ověřována přímo u dopravce za pomocí tzv. seamless availability. Nezaškrtnutí může při zvýšené míře užití negativně ovlivnit poměr dotazování na dopravce oproti počtu rezervací a vyvolat sankce dopravce. |
 | **Posun + 1 den** | Je-li zaškrtnuto, pak je pro ověřování dostupnosti dotaz na následující segment letu pokládán o den později. Je využíváno ve speciálních případech dálkových letů. |
-
-![](https://bo.golibe.com/help/cz/lib/NewItem217.png)
-
-Obdoba nastavení dle bodu 4, v tomto případě však pro pravidla týkající se výhradně nastavovaného segmentu letu.
-
-Pokud je v záložce "Vazby" zaškrtnuta volba "Hledat společně s následujícím", jsou aktivní i záložky "Časová omezení O&D" a "Upřesnění O&D", kde je možné nastavit již dříve zmíněná pravidla pro celou cestu.
 
 ### Jak Promoakce fungují? Zjednodušené schema
 
