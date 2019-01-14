@@ -2,7 +2,7 @@
 
 V menu **Agentura -&gt; Nastavení agentury** je možné upravit základní nastavení, ovlivňující fungování vašeho GOL IBE.
 
-![](../.gitbook/assets/image%20%2830%29.png)
+![](../.gitbook/assets/image%20%2832%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
@@ -14,7 +14,7 @@ Slouží k nastavení konektoru pro letenky z GDS Galileo
 
 ### Nastavení ovlivňující chování letenek
 
-![](../.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%2813%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
@@ -31,7 +31,7 @@ Slouží k nastavení konektoru pro letenky z GDS Galileo
 
 ### Nastavení komunikace s GDS Galileo
 
-![](../.gitbook/assets/image%20%2827%29.png)
+![](../.gitbook/assets/image%20%2829%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
@@ -51,7 +51,7 @@ Slouží k nastavení konektoru pro letenky z GDS Galileo
 | **PNR Queue number** | Queue v rámci výše nastaveného PCC, na které budou zasílány vytvořené rezervace. |
 | **PNR Queue category** | Kategorie queue, pokud tyto agentura využívá pro třídění zpráv. |
 
-![](../.gitbook/assets/image%20%2836%29.png)
+![](../.gitbook/assets/image%20%2839%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
@@ -61,11 +61,11 @@ Slouží k nastavení konektoru pro letenky z GDS Galileo
 
 ### Nastavení sekundární komunikace s GDS Galileo
 
-![](../.gitbook/assets/image%20%2835%29.png)
+![](../.gitbook/assets/image%20%2837%29.png)
 
 Nastavení je obdobné jako pro Primární HAP. Sekundární HAP je využíván, pokud máte více PCC s rozdílným nastavením a z nějakého důvodu potřebujete vyhledávat na dvou PCC najednou a sloučit výsledky. Pro správné fungování je potřeba ještě nastavit v sekci **Paralelní dotazování**.
 
-![](../.gitbook/assets/image%20%2816%29.png)
+![](../.gitbook/assets/image%20%2817%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
@@ -85,7 +85,7 @@ Nastavení je obdobné jako pro Primární HAP. Sekundární HAP je využíván,
 
 ### Nastavení povinných informací o dokladech - DOCS
 
-![](https://bo.golibe.com/help/cz/lib/NewItem253.png)
+![](../.gitbook/assets/image%20%2838%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
