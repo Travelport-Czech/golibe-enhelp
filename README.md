@@ -1,10 +1,10 @@
-# Představení GOL IBE
+# GOL IBE – introduction
 
-GOL IBE je **internetový rezervační systém pro rezervování letenek a dalších cestovních služeb**. Je poskytován cestovním kancelářím a agenturám, které jej integrují do svých www stránek a poskytují tak služby svým klientům. Prodej je realizován s on-line napojením do leteckých společností a dalších zdrojů dat. Informace jsou tedy aktuální a vytvořené rezervace mohou klienti rovnou zaplatit prostřednictvím jedné z mnoha napojených platebních bran. GOL IBE následně vygeneruje elektronickou letenku a klient si tak může vše zařídit ihned přes web, bez zásahu živého operátora v cestovní kanceláři.
+GOL IBE is an **online booking engine designed for booking air tickets and miscellaneous travel services**. It is provided to travel agencies who can integrate it with their websites and this way offer their services online. The services can be sold thanks to the connection of GOL IBE with airlines and other sources of data. The offers are therefore up-to-date and your passengers can pay for the created bookings instantly through one of the many integrated payment gateways. GOL IBE then issues an electronic ticket. Your passengers can book their journey on your agency website without having to get in touch with your staff.
 
 ![](.gitbook/assets/image-8.png)
 
-Detaily o produktu najdete na [www.cee-systems.com](http://www.cee-systems.com/gol-ibe).
+You can find more details on [http://www.cee-systems.com/gol-ibe](http://www.cee-systems.com/gol-ibe)
 
-Tato příručka obsahuje popis nejdůležitějších nastavení, která může provádět autorizovaný uživatel GOL IBE.
+This guide gives you description of the most important settings that can be done by an authorized GOL IBE user.
 

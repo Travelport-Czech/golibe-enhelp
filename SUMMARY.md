@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Představení GOL IBE](README.md)
+* [GOL IBE – introduction](README.md)
 * [Osvědčené rady](osvedcene-rady.md)
 
 ## Základní nastavení
