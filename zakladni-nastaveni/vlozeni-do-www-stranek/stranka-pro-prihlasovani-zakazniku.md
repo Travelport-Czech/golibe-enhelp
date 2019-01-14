@@ -6,7 +6,7 @@ Můžete mít ale zájem o separátní stránku, kde se mohou uživatelé přihl
 
 [https://XXXX.golibe.com/index.php?forceStep=FullLoginForm](https://XXXX.golibe.com/index.php?forceStep=FullLoginForm) \(kde XXXX nahraďte adresou vašeho GOL IBE\)
 
-![](../../.gitbook/assets/image%20%2834%29.png)
+![](../../.gitbook/assets/image%20%2836%29.png)
 
 {% hint style="info" %}
 GOL IBE lze nastavit tak, aby neumožňoval se registrovat a současně aby jej mohl používat jen regisrovaný klient \(tuto logovací stránku pak nelze obejít\).

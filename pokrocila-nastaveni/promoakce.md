@@ -28,7 +28,7 @@ Stránka nastavení Promoakce je rozdělena do několika sekcí \(povinné polo�
 
 ## 1. Základní nastavení Promoakce
 
-![](../.gitbook/assets/image%20%2822%29.png)
+![](../.gitbook/assets/image%20%2823%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
@@ -52,7 +52,7 @@ Stránka nastavení Promoakce je rozdělena do několika sekcí \(povinné polo�
 
 ## 3. Statistika promoakce
 
-![](../.gitbook/assets/image%20%2825%29.png)
+![](../.gitbook/assets/image%20%2827%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
@@ -121,7 +121,7 @@ Pokud je cesta zpáteční, je třeba to samé pro sekci "Cesta zpět". Cesta zp
 | **Fare Basis dopravce** | Kód dopravce, kterému patří Fare Basis \(uvedeno na Fare Display\). V některých případech může letět jiný marketingový dopravce na Fare Basis svého interline partnera. |
 | **Tlačítko "Aktualizovat podmínky"** | Toto tlačítko znovu načte tarifní podmínky z rezervačního systému. Podmínky jsou zobrazovány v dalších záložkách. |
 
-![](../.gitbook/assets/image%20%2823%29.png)
+![](../.gitbook/assets/image%20%2824%29.png)
 
 | Pole | Popis |
 | :--- | :--- |

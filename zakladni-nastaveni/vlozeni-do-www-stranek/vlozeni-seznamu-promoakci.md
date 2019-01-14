@@ -57,7 +57,7 @@ Názvů \(množin\) promoakcí je možné vkládat do scriptu více najednou. N�
 
 Zrovna tak každá Promoakce může mít nastaveno více Názvů \(množin\), je tedy možné na webu zobrazovat jen chtěné skupiny:
 
-![](../../.gitbook/assets/image-16.png)
+![](../../.gitbook/assets/image%20%2820%29.png)
 
 ## 3. Vlastní vkládání
 
