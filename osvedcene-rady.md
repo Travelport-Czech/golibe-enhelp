@@ -1,32 +1,32 @@
-# Osvědčené rady
+# Proven tips
 
-Máme pro Vás několik rad, které Vám mohou přijít jako samozřejmost, ale přesto vřele doporučujeme se zamyslet, zda-li si Váš online někde zcela zbytečně nehází klacek přes cestu.
+We've got a few tips for you that may seem obvious, however we highly recommend that you have a look at your website and GOL IBE implementation and consider whether there's nothing which would completely unnecessarily hinder your success.
 
-**Na chvilku se zastavte, podívejte se na Váš online a s čistým svědomím si bod po bodu odškrtněte, že máte vše v pořádku a vše je podle vašeho vědomého záměru.**
+**Stop for a moment, have a look at your online booking engine and tick off diligently the following points one by one so that you have a clean conscience that you've done everything correctly just like you wanted to.**
 
-## Vyhledávač na stránkách
+## Search form on your website
 
-* **Prodáváte opravdu letenky?**
+* **Are you really selling air tickets?**
 
-Podívejte se na vaši úvodní www stránku a vžijte se do vašeho klienta, který by si chtěl koupit letenku. Zjistí, že rezervace letenek vůbec nabízíte? Daří se to Vám?
+Have a look at the homepage of your website through the eyes of your customer who wants buy an air ticket. Can they clearly see that you offer air tickets at all? Can you see that on your website?
 
-* **Je vyhledávací formulář vložen správně?**
+* **Is the search form implemented correctly?**
 
-Zkontrolujte si, že je vyhledávací formulář vložen celý a je správně viditelný? Ne zřídka se stane, že není vidět tlačítko Pokračovat, nebo něco na formuláři nefunguje jak má. To pak zákazník nemá šanci, bez ohledu na to, jakou máte návštěvnost stránek. Zobrazuje se u vás vše správně?
+Check whether the search form is implemented correctly and that it is visible entirely. It not scarcely happens that the button _Search_ is not visible or some elements of the form don't work as they should. That's a roadblock your customers won't get through, whatever traffic your website gets. Is everything displayed correctly?
 
-* **Vidí zákazníci vše správně v nejpoužívanějších prohlížečích?**
+* **Can your customers see everything correctly in the most frequently used browsers?**
 
-Níže se můžete podívat na statistiku, jak jsou využívány prohlížeče. Statistika se může lišit podle země a měnit se časem. Rozhodně ale neuděláte chybu, pokud se zaměříte na 5 nejvýznamnějších prohlížečů a vyzkoušíte, zda a jak v nich zobrazíte své stránky včetně vyhledávače letenek. Pokud budete chtít přesné měření, jaké prohlížeče konkrétně Vaši zákazníci používají, nasaďte si na web nějaké měření jako například [Google Analytics](https://marketingplatform.google.com/about/analytics/). Vaši webdesignéři Vám s tím určitě pomohou a Vám to přinese možnost vážit přesněji ekonomický přínos vynaložených nákladů za přizpůsobení stránek všem prohlížečům vs. návštěvnost.
+Take a look at the statistics below which show how browsers are used. The statistics can be different by country and can change in time. You definitely won't make a mistake however, if you focus on the 5 major browsers and try out how they display your website and search form. If you need to precisely measure which browsers are used most frequently by your customers, start using a service such as [Google Analytics](https://marketingplatform.google.com/about/analytics/). Your web designers can certainly help you with that, and you'll be able to consider the return on your investment better along with adjusting your website to all the browsers versus the website traffic.
 
-![Vyu&#x17E;it&#xED; prohl&#xED;&#x17E;e&#x10D;&#x16F;: Zdroj: https://www.w3counter.com/globalstats.php / August 2018](.gitbook/assets/image-29.png)
+![Usage share of web browsers. Source: https://www.w3counter.com/globalstats.php / August 2018](.gitbook/assets/image-29.png)
 
-* **Zobrazují se vaše stránky správně všem uživatelům?**
+* **Is your website correctly displayed to all your customers?**
 
-Dejte pozor na to, že pokud si dáte na stránky všechna možná měření a aplikace třetích stran na on-line komunikaci s klienty, natahování informaci z Facebooku apod. nemusí být vše dobře vyladěno a můžete se v některých případech vystavovat riziku, že pokud jedna z těchto služeb nebude zničehonic správně nebo dostatečně rychle odpovídat, může to zdržet načítání některých částí vaší stránky až o několik minut. Není to časté, ale může se to stát. Testujte tedy průběžně a zkuste i nějaký starší, pomalejší počítač, pro který bude bohatě ověšená stránka větší zátěž.
+Be careful about adding too many measurements, third-party applications for customer communication, and loading information from Facebook etc. Some of those services may not be fine tuned and in some cases you may risk that if one of them doesn't work correctly all of a sudden and it doesn't respond quickly enough, they may delay loading of some parts of your website by up to several minutes. It does not happen often, but it may happen. Our recommendation therefore is that you test your website continuously, even on an older, slowlier computer for which a richer website can be a bigger challenge.
 
-* **Je váš web responzivní \(zobrazitelný na mobilních zařízeních\)?**
+* **Is your website mobile responsive?**
 
-Počet uživatelů, kteří vyhledávají na svých chytrých telefonech, stále stoupá. Jsou vaše www stránky přizpůsobeny, aby měl zákazník šanci na vašich stránkách něco přečíst a případně si vyhledávat letenku. V neposlední řadě vyhledávače jako Google hodnotí responzivitu jako velmi významný parametr a může to zásadně ovlivnit vyhledávatelnost vašich stránek.
+The number of users who search through their smartphones is rising. Is your website mobile responsive so that your customers can read it and possibly book air tickets? Moreover, search engines such as Google consider responsiveness of your website as a very important parameter when it comes to rating, and this may fundamentally affect the searchability of your website.
 
 ![Vyu&#x17E;it&#xED; prohl&#xED;&#x17E;e&#x10D;&#x16F; na mobiln&#xED;ch telefonech: Zdroj: http://gs.statcounter.com](.gitbook/assets/image-5.png)
 
