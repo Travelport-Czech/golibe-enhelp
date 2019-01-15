@@ -1,35 +1,35 @@
-# Vložení vyhledávacího formuláře letenek
+# Implementation of the air ticket search form
 
-Vyhledávací formulář letenek je možné implementovat jako:
+You can implement the air ticket search form via:
 
-## 1. html-php balíček - Doporučené!
+## 1. html-php package - RECOMMENDED!
 
-Formulář je responzivní a přizpůsobuje se různým velikostem stránky \(zobrazení na mobilních zařízeních\).
+The form is responsive and adjusts to screens of different sizes \(mobile responsiveness\).
 
 ![](../../.gitbook/assets/image%20%2859%29.png)
 
-Příklad zobrazení při změnách velikosti okna \(na mobilních zařízeních\):
+An example of how the form is displayed, if the size of the window changes \(on mobile devices\):
 
 ![](../../.gitbook/assets/image%20%2813%29.png)
 
-HTML balíček si stáhnete z administračního zázemí:
+You can download the HTML package from the GOL IBE back office:
 
-a\) pokud máte agenturní účet, tak v sekci **Dealeři** -&gt; Vyberte dealera \(web\) o kterého vám jde a klikněte na tlačítko: **Detail,** dále **\*\*tlačítko** Nastavení Frontendu **a klikněte na odkaz: "**Statické HTML ke stažení\*\*".
+a\) if you have agency credentials, go to the section **Dealers** -&gt; choose the relevant dealer \(website\), click **Detail**, click on the button **Front-End settings** and then click on the link **Static HTML for download**.
 
-b\) pokud máte dealerský účet, tak přímo v sekci **Dealeři** -&gt; **Nastavení Frontendu** -&gt; Odkaz: "**Statické HTML ke stažení**".
+b\) if you have dealer credentials, then go straight to **Dealers** -&gt; **Front-End settings** -&gt; link **Static HTML for download**.
 
-Tento formulář obsahuje HTML, CSS, obrázky a patřičné scriptování pro implementaci přímo do vaší stránky s plnou funkcionalitou našeptávače destinací. Můžete si jej také libovolně upravovat.
+The form includes HTML, CSS, pictures and relevant scripts for implementation into your website, including the full functionality of the destination search tooltip. You can customize the form as you wish.
 
 ## 2. iframe
 
-Další možností je iframe, který vyniká snadnou implementací, má ale své nevýhody. Pokud například u vícefázových letů bude zákazník přidávat další a další části cesty, bude se formulář natahovat a musíte tedy nechat na stránce dostatek místa, nebo umožnit skrolování. To ale není moc hezké.
+Another option is the iframe which offers an easy implementation, however it does have some disadvantages. For example, if your customers search for an open-jaw flight and they keep adding more and more flights, the form will keep extending and you either need to leave enough space on your website, or allow scrolling. Neither looks very nice.
 
-Příklad implementace následuje.
+Here's an example of the implementation.
 
 {% hint style="info" %}
-**Nezapomeňte doplnit i sekce "&lt;meta name="viewport".." a "&lt;style..", které jsou důležité pro správné rozměry a responsivní zobrazení.**
+**Don't forget to include also sections "&lt;meta name="viewport".." and "&lt;style.." which are important for correct dimensions and responsive display.**
 
-**Namísto XXXXXX \(níže\) doplňte vaše URL.**
+**Replace XXXXXX \(below\) with your URL.**
 {% endhint %}
 
 ```markup
@@ -65,37 +65,39 @@ Příklad implementace následuje.
 </html>
 ```
 
-## **Pro zvídavé: Úprava výchozího nastavení formuláře**
+## **For geeks: Customize the default settings of the search form**
 
-Pro obě výše uvedené varianty platí, že parametry vyhledávacího formuláře lze předvolit a klient je tedy uvidí již předvyplněné.
+In both above cases, parameters of the search form can be predefined and your customers then see them prepopulated.
 
-Nejjednodušší způsob, jak se dozvědět způsob, jakým link vyrobit, je:
+The easiest way to find out how to create the link is:
 
-* Nastavit vyhledávací formulář do takové podoby, v jaké chcete mít předvoleno vyhledávání.
-* Vyhledat a dostat se na stránku výsledků vyhledávání.
-* Na tlačítku "Nové hledání", které by Vás vrátilo na vyhledávání od začátku, kliknout pravým tlačítkem myši a zvolit zkopírování odkazu.
+* Set up the search form the way you want to predefine the search.
+* Search and get to the page with search results.
+* Find the button _New search_ that would normally get you back to the search form, right-click on it a click _Copy link_.
 
-Příklady toho co získáte:
+Examples of what you'll get:
 
 `https://xxxx.golibe.com/index.php?action=vFlights&flights[0][origin]=PRG&flights[0][destination]=LON&flights[0][departureDate]=2013-01-09&flights[1][origin]=LON&flights[1][destination]=PRG&flights[1][departureDate]=2013-01-16&searchType=FromFour&travelers[0]=ADT&dateVariants=exact&returnTicket=on&step=one2`
 
-Pokud chcete ve formuláři předvolit vyhledávání PRG-LON, vynechte v URL ostatní parametry \(například datum\) a ponechte si jen potřebnou část. Tento link můžete použít jako odkaz:
+If you want to predefine the search form for PRG-LON, omit other parameters in the URL \(such as the date\) and keep only the relevant part. You can then use the amended URL as a link:
 
 ```http
 ?action=vFlights&flights[0][origin]=PRG&flights[0][destination]=LON&flights[1][origin]=LON&flights[1][destination]=PRG&searchType=FromFour&travelers[0]=ADT&dateVariants=exact&returnTicket=on&step=one2
 ```
 
-...nebo použít v iframu:
+...or use it in the iframe:
 
 ```markup
 <iframe src="https://xxxx.golibe.com/static.php?action=vFlights&flights[0][origin]=PRG&flights[0][destination]=LON&flights[1][origin]=LON&flights[1][destination]=PRG&searchType=FromFour&travelers[0]=ADT&dateVariants=exact&returnTicket=on&step=one2" scrolling="no" width="530px" height="510px" frameborder="0" allowtransparency="true">
 ```
 
-Pokud chcete přesměrovat klienty rovnou na výsledky vyhledávání ze své stránky a přitom je nechat čekat na čekací stránce, namísto zobrazení bílé stránky, je možné vložit redirect. Pozor: Část za "...redirect=" musí být URL encodovaná. Například:
+If you want to redirect your customers straight to the search results and let them wait on the waiting page instead of displaying a blank page, you can add a redirect. Caution: the part after "...redirect=" must be an encoded URL. For example:
 
-```http
+```
 https://xxxx.golibe.com/index.php?action=vWait&redirect=http%3A%2F%2Fxxxx.golibe.com%2Findex.php%3Faction%3DvFlights%26flights%5B0%5D%5BdepartureDate%5D%3D2014-11-07%26flights%5B0%5D%5Bdestination%5D%3DPTP%26flights%5B0%5D%5Borigin%5D%3DPAR%26flights%5B0%5D%5BdeparturePlusMinusDay%5D%3D3%26flights%5B1%5D%5BdepartureDate%5D%3D2014-11-14%26flights%5B1%5D%5Bdestination%5D%3DPAR%26flights%5B1%5D%5Borigin%5D%3DPTP%26flights%5B1%5D%5BdeparturePlusMinusDay%5D%3D3%26travelers%5B0%5D%3DADT%26returnTicket%3Don%26vendor%3DTX%26dateVariants%3Dclose%26step%3DChooseFromFour%26target%3Dflights
 ```
 
-Pro URL enkódování můžete použít například tuto veřejně dostupnout utilitu: [https://www.freeformatter.com/url-encoder.html](https://www.freeformatter.com/url-encoder.html)
+For URL encoding, you can use for example this open source utility:
+
+[https://www.freeformatter.com/url-encoder.html](https://www.freeformatter.com/url-encoder.html)
 

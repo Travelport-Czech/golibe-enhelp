@@ -1,8 +1,8 @@
-# Vložení vyhledávacího formuláře ubytování
+# Implementation of the hotel search form
 
-Vyhledávací formulář ubytování je možné implementovat jen jako iframe:
+You can implement the hotel search form only via iframe:
 
-Příklad implementace iframu je možné najít na [http://xxxx.golibe.com/iframe.php?action=vHotels](http://xxxx.golibe.com/iframe.php?action=vHotels), kde xxxx je označení URL pro vaši implementaci GOL IBE.
+Here's an example of iframe implementation: [http://xxxx.golibe.com/iframe.php?action=vHotels](http://xxxx.golibe.com/iframe.php?action=vHotels) where xxxx designates the URL for your GOL IBE implementation.
 
 ```markup
 <iframe src="https://xxxx.golibe.com/?iframe=1?action=vHotels" scrolling="no" width="530px" height="510px" frameborder="0" allowtransparency="true">

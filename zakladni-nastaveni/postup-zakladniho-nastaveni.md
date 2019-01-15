@@ -1,10 +1,10 @@
-# Postup základního nastavení
+# Basic setup procedure
 
-Po získání licence GOL IBE si prosím projděte nastavení v následujících několika krocích.
+When you purchase your GOL IBE licence, please go through the following steps to set it up.
 
-1. [Vložte vyhledávací formulář do svých www stránek](vlozeni-do-www-stranek/)
-2. [Nastavte servisních poplatky](untitled.md)
-3. [Upravte barevné schéma a grafiku aplikace](uprava-designu.md)
-4. [Nastavte svou pracovní dobu \(pokud je to nutné\)](pracovni-doba.md)
-5. [Nastavte notifikace](e-mailove-notifikace.md)
+1. [Implement the search form into your website](vlozeni-do-www-stranek/)
+2. [Set up service fees](untitled.md)
+3. [Customize the colour scheme and the graphics of the application](uprava-designu.md)
+4. [Set up your working hours \(if necessary\)](pracovni-doba.md)
+5. [Set up notifications](e-mailove-notifikace.md)
 

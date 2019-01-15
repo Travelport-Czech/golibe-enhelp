@@ -1,39 +1,39 @@
-# Vložení seznamu promoakcí
+# Implementation of the air ticket special offers
 
-Podrobnosti o implementaci speciálních nabídek najdete taktéž na [https://xxxx.golibe.com/gol-js/](https://xxxx.golibe.com/gol-js/), kde xxxx je označení URL pro vaši implementaci GOL IBE. Máte několik možností, jak implementovat:
+You can find more details on the implementation of special offers also on [https://xxxx.golibe.com/gol-js/](https://xxxx.golibe.com/gol-js/) where xxxx designates the URL of your GOL IBE implementation. You have several options:
 
-## 1. Jednoduché vkládání
+## 1. Easy implementation
 
-Pro jednoduché vložení postačí použít následující script. V případě zájmu o jiný jazyk je třeba tento jazyk zavolat názvem souboru se scriptem. Například: **gol-js-loader\_en.js** pro Angličtinu a **gol-js-loader\_ru.js** pro Ruštinu apod.
+The easiest way to implement the list is to use the following script. If you need another language version, you need to call it by the name of the script. For example: **gol-js-loader\_en.js** for English and **gol-js-loader\_ru.js** for Russian etc.
 
 ```markup
 <script type="text/javascript" src="https://xxxx.golibe.com/gol-js/gol-js-loader_en.js"></script>
 ```
 
 {% hint style="warning" %}
-Pokud by se v HTML našel prvek s id="GOLJS\_SpecialOffers", bude seznam Promoakcí vložen do něho místo za loadovací script. Pozor, toto řešení nepřepíná jazyky - destinace a státy se budou vracet v defaultním jazyce.
+If the HTML includes the element id="GOLJS\_SpecialOffers", the list of special offers will be added there instead of after the loading script. Caution - this option does not switch languages, destinations and countries are returned in the default language.
 {% endhint %}
 
-## 2. Konfigurované vkládání, selektivní výběr zobrazených Promoakcí, vytažení Promoakcí podle názvu.
+## 2. Configurable implementation, selection of displayed special offers, retrieve of special offers by their name.
 
-V tomto případě je vkládán seznam Promoakcí za pomoci následujícího konfigurovatelného scriptu:
+In this case, the list of special offers is implemented via the following configurable script:
 
 ```markup
 <script type="text/javascript">
  var GOLJS = {
-   dontLoadCss: true,                        // Přepínač, zda se má použít defaultní CSS, nebo nikoliv, a stylování si provede sám webdesignér.
-   includeTags: ['tag1', 'tag2'],                // Názvy promoakcí, které mají být vybrány (nutno zadat u Promoakce), např. Asie
-   excludeTags: ['tag3'],                        // Lze použít i opačnou logiku, vložit všechny mimo vyjmenovaných.
+   dontLoadCss: true,                        // A switch to decide whether the default CSS should be used, or whether the web designer will create their own style.
+   includeTags: ['tag1', 'tag2'],                // Names of special offers that should be selected (needs to be defined for the special offer), eg. Asia.
+   excludeTags: ['tag3'],                        // You can also use the opposite logic, to display all special offers except for the selected ones.
    tmpl: {
-     specialOffers: // ...jQuery.tmpl() template...lze si připravit vlastní jQuery template.
+     specialOffers: // ...jQuery.tmpl() template...you can prepare your own jQuery template.
    }
-   specialOffersTag: '.mojeUmisteni' // vytvoření třídy, může být libovolný jQuery selektor, default je #GOLJS_SpecialOffers
+   specialOffersTag: '.mojeUmisteni' // you can create a class, it can be any jQuery selector, the default one is #GOLJS_SpecialOffers
  }
 </script>
 ```
 
-Příklad:  
-Nejjednodušší případ vkládající do stránky pouze jednu Promoakci s názvem \(množinou\): "PromoakcePoEvrope"
+Example:  
+The simplest case where you add just one special offer named \(tagged\): "OffersInEurope"
 
 ```markup
 <html>
@@ -43,7 +43,7 @@ Nejjednodušší případ vkládající do stránky pouze jednu Promoakci s náz
        <script type="text/javascript">
                var GOLJS = {
                        dontLoadCss: false,
-                       includeTags: ['PromoakcePoEvrope']
+                       includeTags: ['OffersInEurope']
                }
        </script>
        </head>
@@ -53,17 +53,17 @@ Nejjednodušší případ vkládající do stránky pouze jednu Promoakci s náz
 </html>
 ```
 
-Názvů \(množin\) promoakcí je možné vkládat do scriptu více najednou. Názvy \(množiny\) se vkládají přes administrační zázemí v sekci: **Ceny -&gt; Promoakce - letenky \(rozšířené\)**
+You can add more names \(tags\) of special offers at once into the script. You add the names \(tags\) in the GOL IBE back office under: **Prices -&gt; Special offer extended**
 
-Zrovna tak každá Promoakce může mít nastaveno více Názvů \(množin\), je tedy možné na webu zobrazovat jen chtěné skupiny:
+Also, each special offer can have more names \(tags\). You can then display only the desired groups on your website:
 
 ![](../../.gitbook/assets/image%20%2830%29.png)
 
-## 3. Vlastní vkládání
+## 3. Your own implementation
 
-Poslední možností je stáhnout si seznam promoakcí a zpracovat si ho podle svých představ.
+The third option is to download the list of special offers and process it as you need.
 
 ```http
-http://xxxx.golibe.com/json/special-offers-list/en //kde xxxx je URL vašeho GOL IBE a /en je kód jazyka
+http://xxxx.golibe.com/json/special-offers-list/en //where xxxx is the URL of your GOL IBE and /en is the language code
 ```
 

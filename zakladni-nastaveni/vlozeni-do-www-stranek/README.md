@@ -1,11 +1,11 @@
-# Vložení do www stránek
+# Implementation into your website
 
-GOL IBE funguje na našich serverech a pro implementaci potřebujete opravdu velice málo. Postačí, když si do svých www stránek vložíte vyhledávací formulář. Váši zákazníci si tak začnou vyhledávat na vašich www stránkách a další kroky už zajistíme my.
+GOL IBE is hosted on our servers and very little is needed from you to implement it. It is sufficient if you just implement the search form into your website. That will allow your customers to search there, and we'll take care of the rest.
 
-Vkládat do svých www stránek můžete následující formuláře:
+You can implement the following forms:
 
-1. [Vyhledávací formulář letenek](vlozeni-vyhledavaciho-formulare-letenek.md)
-2. [Seznam letenkových promoakcí](vlozeni-seznamu-promoakci.md)
-3. [Vyhledávací formulář ubytování](vlozeni-vyhledavaciho-formulare-ubytovani.md)
-4. Stránka pro přihlašování registrovaných uživatelů
+1. [Air ticket search form](vlozeni-vyhledavaciho-formulare-letenek.md)
+2. [List of air ticket special offers](vlozeni-seznamu-promoakci.md)
+3. [Hotel search form](vlozeni-vyhledavaciho-formulare-ubytovani.md)
+4. Login page for registered customers
 

@@ -5,12 +5,12 @@
 
 ## Základní nastavení
 
-* [Postup základního nastavení](zakladni-nastaveni/postup-zakladniho-nastaveni.md)
-* [Vložení do www stránek](zakladni-nastaveni/vlozeni-do-www-stranek/README.md)
-  * [Vložení vyhledávacího formuláře letenek](zakladni-nastaveni/vlozeni-do-www-stranek/vlozeni-vyhledavaciho-formulare-letenek.md)
-  * [Vložení vyhledávacího formuláře ubytování](zakladni-nastaveni/vlozeni-do-www-stranek/vlozeni-vyhledavaciho-formulare-ubytovani.md)
-  * [Vložení seznamu promoakcí](zakladni-nastaveni/vlozeni-do-www-stranek/vlozeni-seznamu-promoakci.md)
-  * [Stránka pro přihlašování zákazníků](zakladni-nastaveni/vlozeni-do-www-stranek/stranka-pro-prihlasovani-zakazniku.md)
+* [Basic setup procedure](zakladni-nastaveni/postup-zakladniho-nastaveni.md)
+* [Implementation into your website](zakladni-nastaveni/vlozeni-do-www-stranek/README.md)
+  * [Implementation of the air ticket search form](zakladni-nastaveni/vlozeni-do-www-stranek/vlozeni-vyhledavaciho-formulare-letenek.md)
+  * [Implementation of the hotel search form](zakladni-nastaveni/vlozeni-do-www-stranek/vlozeni-vyhledavaciho-formulare-ubytovani.md)
+  * [Implementation of the air ticket special offers](zakladni-nastaveni/vlozeni-do-www-stranek/vlozeni-seznamu-promoakci.md)
+  * [Login page for registered customers](zakladni-nastaveni/vlozeni-do-www-stranek/stranka-pro-prihlasovani-zakazniku.md)
 * [Servisní poplatky](zakladni-nastaveni/untitled.md)
 * [Úprava designu](zakladni-nastaveni/uprava-designu.md)
 * [Pracovní doba](zakladni-nastaveni/pracovni-doba.md)
