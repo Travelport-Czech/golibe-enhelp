@@ -36,30 +36,30 @@ The number of users who search through their smartphones is rising. Is your webs
 
 Think about when your customers want to book on your website. Are they only corporate customers and do they manage to make bookings during their office hours? Or are they also individuals who want to book in the evening or during the weekend? A lot of them indeed make bookings also outside of their offices. They may check out the offers while at work, but they book in the evening after consulting their family, or just when they have more time to plan their trip. Have you set up limited working hours for your online booking engine? Can't you lose customers, if they find out that they can book on your website only sometimes? We understand it can be difficult but if you decide to have your website open 24/7, we can help you set up notifications when someone makes a booking. If you use one of the integrated payment gateways, the customer can pay instantly and GOL IBE then automatically issues an e-ticket. You can also receive email notifications only if the e-ticket cannot be automatically issued etc.
 
-* **Stihnou zákazníci zaplatit?**
+* **Do you customers have enough time to pay for the ticket?**
 
-Garance ceny je standardně v rezervačních systémech jen den a i když podmínky tarifu často hovoří o delším čase, může se cena změnit. Nebo vám airline ráda pošle do rezervace zprávu, že musíte vystavit letenku ihned. Nabízí se velmi oblíbené řešení nastavit termín vystavení na ihned, nebo do druhého dne. Ale pozor, nemáte-li on-line platební bránu, skutečně vám někdo stačí zaplatit hotově nebo převodem? Pokud ne, nevybere si jiný on-line?
+The price of the booking in reservation systems is standardly guaranteed for one day, and although the fare conditions often show a longer period of time, the price can change. Or the airline sends you a message to the booking that the e-ticket needs to be issued immediately. A popular solution is to set up the ticketing time limit for today or tomorrow. But be careful - if you don't have an online payment gateway, do your customers really have enough time to pay cash or via bank transfer? If not, wouldn't they go to a different website?
 
-* **Jak srovnatelné jsou vaše výsledky s konkurencí?**
+* **How do your search results compare with your competitors?**
 
-S výsledky se dá různě nakládat, podle toho jakou máte klientelu. Můžete jim nabízet:
+You can work with the search results in different way based on your clientele. You can offer:
 
-* kratší přestupy \(GOL IBE umožňuje nastavit maximální dobu přestupu na krátké a dlouhé tratě\)
-* unikátní výsledky \(V backoffice GOL IBE můžete nastavovat výsledky navíc s konkrétní airline, přestupem apod.\)
+* shorter transfers \(GOL IBE allows you to set up the maximum transfer time for short- and long-haul flights\)
+* unique results \(moreover, the GOL IBE back office allows you to set up search results for a specific airline, a specific transfer etc.\)
 
-V neposlední řadě je ale důležité kontrolovat zobrazované ceny. Není výjimkou, že vaše konkurence může mít různě vysoké servisní poplatky pro různé airline, nebo destinace. Tam kde mají například za odměnu dosáhnout nějakého množství prodejů, budou poplatky minimální a vy můžete zjistit, že do dané destinace neprodáte vůbec nic. Jste zákazníka drazí. Je to v pořádku? Děje se vám to?
+It is also important to check the displayed prices. It is quite usual that your competitors can have various service fees for different airliens or destinations. If the airline rewards them for a certain volume of sold tickets, the service fee will be minimal, and you may end up not selling much to that particular destination. You will be too expensive. Is that all right? Does it happen to you?
 
-* **Vyděláváte na provizích?**
+* **Do you earn commission?**
 
-I když dnes provize od leteckých společností skoro neexistují, stále zde jsou. Jen je třeba provize ve správné výši vkládat do rezervací. Nezřídka je to ale tak složité, že se to nedělá. Není to škoda? \(GOL IBE tuto funkci má, takže i velmi složité provize lze nastavit a ty se již samy budou kalkulovat pro vytvářené rezervace\) Vystavujete letenky bez provizí?
+Even though commission from airlines almost don't exist nowadays, they're still around. But you have to add them correctly to the bookings. This is often so complicated that almost nobody does it. Isn't that a pity? GOL IBE does support this functionality so you can set up even very complicated commissions and they are then automatically calculated for the created bookings. Do you issue e-tickets without commissions?
 
 ## Marketing
 
-* **Vědí klienti o vašich stránkách?**
+* **Do your customers know about your website?**
 
-Upozorňujete na existenci prodeje přes internet? Pokud jen vystavíte stránky na internet je to málo na získání klientů. Než se prosadíte, trvá to a není to snadné. Neuvažujete o tom, informovat zákazníky v emailových podpisech, propagačních materiálech, nabídkách, potvrzeních, na vizitkách atd?
+Do you let your customers know that they can book on your website? If you just publish your website, it is not enough to win customers. It takes time and it is difficult to make yourself known. Do you consider informing your customers in email signatures, marketing materials, offers, confirmations, business cards etc.?
 
-* **Máte věrnostní programy?**
+* **Do you offer loyalty programmes?**
 
-Funguje to všude, tak proč ne v letenkách? GOL IBE má systém přihlašování zákazníků, evidenci data jejich posledního nákupu, exporty pro zjištění četnosti nákupů a systém pro nastavení speciální výše servisního poplatku pro přihlášené uživatele. Nešlo by to nějak využít a věrné odměnit speciálním servisním poplatkem nebo nějakou úplně jinou odměnou?
+It works everywhere so why not for air tickets? GOL IBE supports customer registration, it records the date of their last purchase, offers exports for calculating the frequency of their purchases and it allows you to set up a special service fee for a particular registered customer. Can you think of how to take advantage of these functionalities and reward your loyal customers with a special service fee or something else?
 
