@@ -1,18 +1,18 @@
-# Úprava designu
+# Design customization
 
-## Upravte si barevné schema \(design\)   <a id="upravte-si-barevn&#xE9;-schema-design"></a>
+## Customize your colour scheme \(design\)   <a id="upravte-si-barevn&#xE9;-schema-design"></a>
 
-V menu **Dealeři** vyberte dealera \(web\), který máte zájem upravovat. Klikněte na příslušném řádku na **DETAIL** a v otevřené stránce klikněte na:
+Under **Dealers**, select the dealer \(website\) that you want to customize. Click on **DETAIL** next to the dealer and thenk click on:
 
 ![](../.gitbook/assets/image%20%2838%29.png)
 
-Zde si můžete měnit barevná nastavení, nahrávat vlastní tlačítka apod.
+Here you can change colours, upload your own buttons etc.
 
 ![](../.gitbook/assets/image%20%2819%29.png)
 
 ![](../.gitbook/assets/image%20%2847%29.png)
 
 {% hint style="info" %}
-Pokud budou vaše požadavky náročnější a budete chtít zasahovat i do podoby zobrazených informací z vyhledávání a celého rezervačního procesu, nabízíme vám přístup k úpravě stylování, kde vaši webdesignéři budou moci upravovat CSS styly. K tomu máme připraveny i nástroje pro nasazování. Je zde ale potřeba vyjmout váš web ze standardních, a s každým nasazením nové funkcionality mající vliv na zobrazení je nutné překontrolovat, že vše správně funguje. Pokud máte o toto řešení zájem, kontaktujte nás.
+If you have more demanding requirements and you also want to customize how the search results and other parts of the booking process are displayed, we can offer you access to styling where your web designers can edit CSS styles. We also have tools for deployment. However in this case, your website needs to be removed from the default ones. In other words, any time we introduce a new feature affecting the display, you need to check whether all elements of the design work as desired. If you're interested in CSS styles, please let us know.
 {% endhint %}
 
