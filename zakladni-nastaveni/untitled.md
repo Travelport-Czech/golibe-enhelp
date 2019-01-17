@@ -1,89 +1,89 @@
-# Servisní poplatky
+# Service fees
 
-V zázemí přejděte do menu **Ceny -&gt; Servisní poplatky letenek - agentura**
+In the back office, go to **Prices -&gt; Service fees - agency**
 
 {% hint style="warning" %}
-Pokud využíváte Dealerský prodej, nebo potřebujete definovat servisní poplatek na zákazníka, čtěte detaily k **Servisní poplatky letenek - dealer** na závěr textu.
+If you use the Dealer module or if you need to define a service fee for a specific customer, see more details in **Service fees - dealer** at the end of this chapter.
 {% endhint %}
 
-Pro přidání nového servisního poplatku klikněte na tlačítko:
+To add a new service fee, click on:
 
 ![](../.gitbook/assets/image%20%2843%29.png)
 
-## 1. Zvolte leteckou společnost
+## 1. Select carrier
 
-Letecká společnost může zůstat nevyplněna, a v tom případě platí pravidlo pro všechny airlines.
+You don't need to select any carrier, in which case the rule applies for all carriers.
 
 ![](../.gitbook/assets/image%20%2841%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
-| **Transportní společnost** | Výběr let. společnosti, pro kterou zadávané pravidlo platí |
-| **Konektor** | Letenky Galileo - poplatky pro letenky pocházející z GDS Galileo |
-|  | Letenky Travelfusion - poplatky pro letenky pocházející od TravelFusion |
+| **Carrier** | Selection of a carrier for which the rule applies |
+| **Connector** | Air Ticket Galileo - fees for tickets from Galileo GDS |
+|  | Travelfusion tickets - fees for tickets from Travelfusion |
 
-## 2. Zvolte podmínky platnosti
+## 2. Select validity conditions
 
 ![](../.gitbook/assets/image%20%2853%29.png)
 
 | **Pole** | Popis |
 | :--- | :--- |
-| **Podmínky platnosti** | Obecně platné - platí bez jakýchkoliv omezení |
+| **Validity conditions** | Generic validity - valid without any limitations |
 
 ![](../.gitbook/assets/image%20%2832%29.png)
 
 | **Pole** | Popis |
 | :--- | :--- |
-| **Podmínky platnosti** | Platné pro destinace - omezuje platnost na vyspecifikované typy cest a konkrétní spojení. |
-| **Typ** | OW+RT - platí pro jednosměrné i zpáteční cesty |
-|  | OW - platí jen pro jednosměrné cesty \(OneWay\) |
-|  | RT - platí jen pro zpáteční cesty \(Return\) |
-|  | Tato pravidla nejsou aplikovatelná pro vícefázové cesty, nebo Open Jaw. Pro ty je nutné využívat pouze Obecné podmínky platnosti \(viz. výše\). |
-| **Počátek cesty \(IATA kód\)** | Odkud se letí |
-| **Cíl cesty \(IATA kód\)** | Kam se letí / Odkud se letí zpět |
+| **Validity conditions** | Valid for destinations - limits the validity to specified types of journeys and connections |
+| **Typ** | OW+RT - valid for one-way and return journeys |
+|  | OW - valid for one-way journeys |
+|  | RT - valid for return journeys |
+|  | These rules are not applicable for open-jaw journeys. For those you can only use rules with generic validity \(see above\). |
+| **Origin \(IATA code\)** | Where the journey starts |
+| **Destination \(IATA code\)** | Where the journey ends / Where the passenger returns from |
 
 ![](../.gitbook/assets/image.png)
 
 | **Pole** | Popis |
 | :--- | :--- |
-| **Podmínky platnosti** | Platné pro typy destinací - omezuje platnost na skupiny destinací |
-| **Typ** | OW+RT - platí pro jednosměrné i zpáteční cesty |
-|  | OW - platí jen pro jednosměrné cesty \(OneWay\) |
-|  | RT - platí jen pro zpáteční cesty \(Return\) |
-|  | Tato pravidla nejsou aplikována pro vícefázové cesty, nebo Open Jaw. Pro ty je nutné využívat pouze Obecné podmínky platnosti \(viz. výše\). |
+| **Validity conditions** | Valid for destination types - limits the validity to groups of destinations |
+| **Type** | OW+RT - valid for one-way and return journeys |
+|  | OW - valid for one-way journeys |
+|  | RT - valid for return journeys |
+|  | These rules are not applicable for open-jaw journeys. For those you can only use rules with generic validity \(see above\). |
 
-## 3. Stanovte výši servisního poplatku
+## 3. Set up the service fee
 
 ![](../.gitbook/assets/image%20%2822%29.png)
 
 | **Pole** | Popis |
 | :--- | :--- |
-| **Stanovená výše poplatku** | Fixní poplatek - pevná částka ve výchozí měně agentury. |
-| **Fixní poplatek** | Číselná hodnota poplatku |
+| **Set fee value** | Fixed fee - a fixed amount in your default currency |
+| **Fixed fee** | Numerical value of the fee |
 
 ![](../.gitbook/assets/image%20%2848%29.png)
 
 | **Pole** | Popis |
 | :--- | :--- |
-| **Stanovená výše poplatku** | Fixní poplatek podle ceny letenky - pevná částka připočítaná za podmínky, že se cena pohybuje v nastaveném rozpětí. |
-| **Fixní poplatek** | Číselná hodnota poplatku |
-| **Pro letenky v ceně nad** | Spodní hranice ceny letenky. Při překročení bude aplikován poplatek. |
-| **Pro letenky v ceně do \(vč.\)** | Horní hranice ceny letenky \(včetně\). Při překročení této částky přestává být aplikován poplatek. |
-| **Rozsah cen zahrnuje taxy** | Ceny letenek jsou uvažovány včetně tax |
+| **Set fee value** | Fixed fee based on price of ticket - fixed amount added, if the price is within a predefined range |
+| **Fixed fee** | Numerical value of the fee |
+| **Fot tickets with prices from** | The lowest price of the ticket. The fee is applied for prices above this value. |
+| **For tickets with prices to \(incl.\)** | The highest price of the ticket \(inclusive\). The fee is not applied for prices above this value. |
+| **Price range includes taxes** | Prices of the tickets are considered including the taxes |
 
 {% hint style="warning" %}
-Poznámka: Platí vždy nejkonkrétnější pravidlo. Pokud máte například vloženo obecné pravidlo bez zvolené letecké společnosti a současně pravidlo se specifikovanou společností, bude použito to druhé v případě, že bude letecká společnost souhlasit.
+Note: GOL IBE always applies the most specific rule. For example, if you set up a rule with generic validity without specifying a carrier, and you at the same time set up a rule with a specified carrier, the second one is applied, if the carrier matches.
 {% endhint %}
 
-## Nastavení poplatků pro dealery a přihlášené uživatele
+## Service fees for dealers and logged in users
 
-Pokud využíváte Dealerský prodej, nebo potřebujete definovat servisní poplatek na konkrétního zákazníka, pak v přejděte do menu **Ceny -&gt; Servisní poplatky letenek - dealer**
+If you use the Dealer module or if you need to define a service fee for a specific customer, go to **Prices -&gt; Service fees - dealer**
 
-Najdete zde shodná nastavení, jako pro **Servisní poplatky letenek - agentura** a něco navíc.
+You will find the same settings as in **Service fees - agency**, and something extra.
 
-**Toto nastavování je vhodné ve dvou základních situacích:**
+**This settings is relevant in two basic situations:**
 
-a\) **Máte více Dealerů \(webů\)** a každému chcete nadefinovat jiný servisní poplatek.
+a\) **You have more Dealers \(websites\)** and you want to define a different service fee for each of them.
 
 ![](../.gitbook/assets/image%20%2817%29.png)
 
@@ -91,16 +91,16 @@ a\) **Máte více Dealerů \(webů\)** a každému chcete nadefinovat jiný serv
 | :--- | :--- |
 | **Dealer** | Výběr pro kterého dealera nastavení platí |
 
-**b\) Máte registrovaného zákazníka**, kterému chcete přiřadit jeho vlastní servisní poplatek. Obvykle se to používá v situacích, kdy máte nějakého důležitého zákazníka \(nebo firmu\), se kterým máte dohodnuty speciální podmínky a speciální výši servisních poplatků.
+b\) **You have a registered customer** and you want to define a specific service fee for them. You would usually do this, if you have an important customer \(or a company\) with whom you've negotiated special terms and a special service fee.
 
 ![](../.gitbook/assets/image%20%2850%29.png)
 
 | **Pole** | Popis |
 | :--- | :--- |
-| **Platné pro zákazníky** | Platné pro všechny - bez omezení na konkrétního zákazníka |
-|  | Platné pro zvoleného - konkrétní registrovaný zákazník, kterého je možné vybrat ze seznamu. |
+| **Customer validity** | General valid - not limited to a particular customer |
+|  | Valid for chosen one - a specific registered customer whom you can select from the list. |
 
 {% hint style="warning" %}
-Výsledná částka poplatku je součtem nastavení od agentury a od dealera. Pokud chcete nastavovat poplatky pouze dealerům a nenastavovat si žádnou agenturní základní provizi, nastavte si v Servisní poplatky letenek - agentura výchozí hodnotu poplatku 0.
+The total amount of the fee is a combination of the fees set up for the agency and the dealer. If you want to set up fees only for dealers and you don't want any basic agency service fee, go to _Service fees - agency_ and set the fee value to 0.
 {% endhint %}
 
