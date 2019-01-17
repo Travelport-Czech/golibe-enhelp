@@ -13,7 +13,7 @@
   * [Login page for registered customers](zakladni-nastaveni/vlozeni-do-www-stranek/stranka-pro-prihlasovani-zakazniku.md)
 * [Service fees](zakladni-nastaveni/untitled.md)
 * [Design customization](zakladni-nastaveni/uprava-designu.md)
-* [Pracovní doba](zakladni-nastaveni/pracovni-doba.md)
+* [Working hours](zakladni-nastaveni/pracovni-doba.md)
 * [E-mailové notifikace](zakladni-nastaveni/e-mailove-notifikace.md)
 
 ## Pokročilá nastavení

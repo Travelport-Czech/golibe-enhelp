@@ -1,16 +1,18 @@
-# Pracovní doba
+# Working hours
 
-Stránka slouží k nastavení pracovní doby agentury tak, aby bylo zabráněno rezervacím, které nebude možné z důvodu nepřítomnosti letenkářů vystavit \(mimopracovní doba\). Vřele ale doporučujeme využít některou platební bránu a nastavit automatizovaný ticketing, nebo si nastavit notifikace a hlídat rezervace i mimo pracovní dobu v zájmu co největšího množství prodaných letenek.
+This section allows you to set up working hours. That prevents your customers from making bookings that your agents wouldn't be able to e-ticket because they're out of the office \(outside of working hours\). However, we highly recommend to use one of the integrated payment gateways and set up the automated e-ticketing. Another option is to set up notifications and check the bookings also outside of your working hours in order to sell as many tickets as possible.
 
-Na nastavení pracovní doby se dostanete přes menu **Agentura -&gt; Pracovní doba**.
+You can find the settings under **Agency -&gt; Working hours**.
 
 ![](../.gitbook/assets/image%20%2825%29.png)
 
-Pro jednotlivé dny lze nastavit pracovní dobu s polední přestávkou, například 9:00 – 11:30, 12:00 – 17:30. Pokud nemá agentura polední přestávku, je nutné nastavit celou pracovní dobu 9:00 – 18:30 do polí určených pro dopoledne.
+You can set working hours for each day, including a lunch break, for example 9:00 – 11:30, 12:00 – 17:30. If the agency doesn't have a lunch break, it is necessary to set the entire working time 9:00 – 18:30 in the morning fields.
 
-## Logika nastavení pracovní doby
+## The logic of setting working hours
 
-Nastavení slouží jako ochrana před situací, kdy si klient zarezervuje letenku v 17:35 ale v 17:30 již skončila pracovní doba agentury. Letenku je třeba vystavit téhož dne, ale již ji nemá kdo vystavit. To samé platí pro víkendy a dny volna obecně. Pracovní doba je vždy porovnávána s nejpozdějším datem pro vystavení letenky. Nejpozdější datum vystavení, zobrazované zákazníkům, je určeno na základě podmínek tarifu \(nastavením může být omezeno\). Díky nastavení pracovní doby je ale omezeno na den, kdy má agentura pracovní dobu tak, aby se vystavení stihlo.
+This setting is a protection against a situation when your customer books a ticket at 17:35, but your office closes at 17:30. The booking must be e-ticketed on the same day but there's nobody at your office to do it. The same applies to weekends and days off in general. Your working hours are always compared to the latest ticketing date. The latest ticketing date displayed to customers is determined based on the fare conditions \(this can be limited in the settings\).
+
+Díky nastavení pracovní doby je ale omezeno na den, kdy má agentura pracovní dobu tak, aby se vystavení stihlo.
 
 Pro správné fungování je ještě třeba definovat u jednotlivých způsobů plateb, kolik času v rámci pracovní doby je potřeba na vyřízení obchodního případu. Výchozí nastavení je 1 hodina. Tím můžete ovlivnit, které způsoby plateb se budou nabízet, pokud se blíží nejpozdější datum vystavení. Pokud je toto datum určeno na den rezervace \(musí se vystavit "ihned"\), pak ostatním způsobům plateb mohu nastavit vyšší hodnotu a nebudou vůbec k dispozici pro zaplacení.
 
