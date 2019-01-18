@@ -1,32 +1,32 @@
-# E-mailové notifikace
+# Email notifications
 
-V menu **Notifikace** najdete nastavení e-mailových zpráv, které GOL automaticky odesílá.
+To set up emails automatically sent by GOL IBE, go to **Notifications**.
 
-Všechny notifikace, které používáte již máte přednastavené.
+All notifications are already pre-set for you.
 
-V přehledné tabulce nastavených notifikací uvidíte následující sloupce, které zobrazují, komu jsou e-maily doručovány.
+In the clear table of set notifications, you can see columns showing to whom the emails are delivered.
 
-| **Komu** | Popis |
+| **To** | Popis |
 | :--- | :--- |
-| **Zákazníkovi** | Doručováno klientovi, který vložil svou adresu během rezervačního procesu. |
-| **Dealerovi** | Doručováno dealerovi, jehož emailová adresa je nastavena v menu **Dealeři** |
-| **Agentuře** | Doručováno agentuře na adresu uvedenou v **Agentura -&gt; Nastavení agentury**. |
-| **Konfigurátorovi** | Doručováno administrátorovi systému \(jen pro účely ladění, nebo konzultací\) |
+| **Customer** | Delivered to the customer who entered their email address during the booking process |
+| **Dealer** | Delivered to the delaer whose email address is set in the section **Dealers** |
+| **Agency** | Delivered to the agency whose email address is set under **Agency -&gt; Agency settings** |
+| **Configurator** | Delivered to the system admin \(only for the purpose of fine-tuning or consultation\) |
 
-V případě zájmu o změnu tohoto nastavení klikněte na **DORUČENÍ**.
+If you wish to change this setting, click on **DELIVERY**.
 
 {% hint style="warning" %}
-GOL IBE odesílá vaším jménem zákazníkům e-mailová potvrzení. Například jste agentura abtravel a zákazník dostane potvrzení o rezervaci z emailové adresy info@abtravel.com.
+GOL IBE sends email confirmations to customers on your behalf. For example, if your travel agency name was abtravel, your customers would get booking confirmations from the email address info@abtravel.com.
 
-Protože ale v dnešní době maximální ochrany před spamem můžete mít na emaily z vaší strany nasazeny různé ochrany, nemusí být emaily od GOL IBE, zasílané vaším jménem, dobře doručovány zákazníkům.
+However, due to today's trend of maximum protection against spam the emails sent by GOL IBE on your behalf may not always be delivered to your customers.
 
-Proto je potřeba mít nastaveny vaše emaily / doménu následujícím způsobem:
+Therefore, you need to set your emails / domain as follows:
 
-Pokud používáte SPF, pak v nastavení domény povolte náš mailserver:
+If you use SPF, please allow our mail server in your domain settings:
 
 **v=spf1 mx mx:golibe.com ~all**
 
-Do domény si vždy přidejte CNAME záznam:
+Allways add this CNAME record to your domain:
 
 **golibe.\_domainkey.agentura.cz CNAME golibe.\_domainkey.golibe.com**
 {% endhint %}

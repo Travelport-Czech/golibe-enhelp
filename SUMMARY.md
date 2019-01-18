@@ -3,7 +3,7 @@
 * [GOL IBE – introduction](README.md)
 * [Proven tips](osvedcene-rady.md)
 
-## Základní nastavení
+## Basic settings
 
 * [Basic setup procedure](zakladni-nastaveni/postup-zakladniho-nastaveni.md)
 * [Implementation into your website](zakladni-nastaveni/vlozeni-do-www-stranek/README.md)
@@ -14,11 +14,11 @@
 * [Service fees](zakladni-nastaveni/untitled.md)
 * [Design customization](zakladni-nastaveni/uprava-designu.md)
 * [Working hours](zakladni-nastaveni/pracovni-doba.md)
-* [E-mailové notifikace](zakladni-nastaveni/e-mailove-notifikace.md)
+* [Email notifications](zakladni-nastaveni/e-mailove-notifikace.md)
 
-## Pokročilá nastavení
+## Advanced settings
 
-* [Profil agentury](pokrocila-nastaveni/profil-agentury.md)
+* [Agency profile](pokrocila-nastaveni/profil-agentury.md)
 * [Promoakce](pokrocila-nastaveni/promoakce.md)
 * [Provize leteckých společností](pokrocila-nastaveni/provize-leteckych-spolecnosti.md)
 * [Paralelní dotazování](pokrocila-nastaveni/paraleleni-dotazovani.md)
