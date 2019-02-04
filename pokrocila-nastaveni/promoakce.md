@@ -1,13 +1,15 @@
-# Promoakce
+# Special offers
 
-Jsou určeny k prodeji cen vybraných leteckých společností za pomoci kalendářů s vyznačením dostupnosti.
+This module lets you sell special fares of selected carriers through calendars showing their availability. 
 
-**Promoakce mohou vznikat:**
+**Special offers can be created:**
 
-1. **Ručně**, založením promoakce a zadáním všech potřebných parametrů spojení.
-2. **Automaticky**, kdy GOL IBE navrhuje promoakce sám, na základě provedených rezervací uživatelů. Každý takovýto návrh promoakce je přidán v zázemí jako nová neaktivovaná promoakce. Navrhovaná promoakce na určité spojení je až do své případné aktivace stále porovnávána s každou další vzniklou rezervací, a pokud je cena nově vzniklé rezervace nižší, je původní promoakce nahrazena.
+1. **Mannually** by adding a special offer and defining all required parameters of the connection.
+2. **Automatically** by letting GOL IBE suggest special offers based on bookings passengers have made before. Each such suggested special offer is added in the back office as a non-activated offer. Until their possible activation, all suggested offers are being compared to every newly created offer for the same connection, and if the newly created offer is cheaper, the original one is replaced. 
 
 {% hint style="info" %}
+ 
+
 Odlety a přílety jsou u automatických promoakcí přednastaveny od prvního dne v měsíci, ve kterém byl rezervován let, do posledního dne 3. měsíce ode dne, na který byl rezervován let. Platnost promoakce je přednastavena od aktuálního data do posledního dne možného odletu.
 {% endhint %}
 

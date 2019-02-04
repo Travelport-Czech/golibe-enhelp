@@ -19,7 +19,7 @@
 ## Advanced settings
 
 * [Agency profile](pokrocila-nastaveni/profil-agentury.md)
-* [Promoakce](pokrocila-nastaveni/promoakce.md)
+* [Special offers](pokrocila-nastaveni/promoakce.md)
 * [Provize leteckých společností](pokrocila-nastaveni/provize-leteckych-spolecnosti.md)
 * [Paralelní dotazování](pokrocila-nastaveni/paraleleni-dotazovani.md)
 * [Nabídka externích služeb](pokrocila-nastaveni/nabidka-externich-sluzeb.md)
