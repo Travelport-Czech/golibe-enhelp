@@ -110,19 +110,21 @@ This setting is similar to the above for Primary HAP. A secondary HAP is used, i
 
 | Pole | Popis |
 | :--- | :--- |
-| **Countries requiring passport** | Zkratky zemí, pro které jsou vyžadovány údaje DOCS \(pokud vkládáte více kódů, je nutné je oddělit čárkou\). Zadaný stát vyžaduje pas, pokud je na jeho území letiště odletu, přestupu nebo cíle cesty. Pokud má být nastavení platné pro všechny státy, je nutné vyplnit kód: ALL. |
-| **Přepravci vyžadující pas** | Kódy přepravců, kteří vyžadují vložení DOCS. Pokud je dopravce v itineráři \(marketingový nebo operující\), pak bude povinné zadávání čísel pasů bez ohledu na destinaci, tedy pro veškeré destinace s tímto dopravcem. Pokud má být nastavení platné pro všechny státy, je nutné vyplnit kód: ALL. |
-| **Forma zobrazení** | Základní s vynecháním čísla pasu – DOCS údaje jsou vyžadovány ve zkrácené formě, což umožní dokončení rezervace, avšak neumožní vystavení letenky. Tato volba je nejčastější, potřeba informace o cestovních dokladech pro všechny pasažéry často komplikuje rezervaci a odrazuje klienty. Je vhodnější informace zjistit dodatečně. |
-|  | Rozšířená včetně čísla pasu – DOCS údaje jsou vyžadovány v plné formě, a tedy včetně čísla cestovního dokladu. |
-| **Vyplnění je povinné** | Při zaškrtnutí této volby a vyplnění některého z parametrů výše nemůže klient bez vyplnění DOCS údajů dokončit rezervaci, a aplikace zobrazí chybu. |
+| **Countries requiring passport** | Codes of countries for which DOCS information is required \(if you enter multiple codes, you need to separate them by comma\). Entered countries require a passport, if the departure, transfer or arrival airport is in its territory. If the settings should be applied for all countries, you need to enter the code _ALL_. |
+| **Carriers requiring pass** | Codes of carriers for which DOCS information is required. If the carrier is in the itinerary \(either marketing or operating\), the passenger will be required to enter their passport details regardless of the destination, ie. for all destinations operated by this carrier. If the settings should be applied for all countries, you need to enter the code _ALL_. |
+| **Displayed format** | Basic - without passport number: the DOCS information is required in a simpler format. This allows the passenger to finish the booking, however the e-ticket cannot be issued. This option is most frequently used because it bothers passengers to complete all passport details and it often complicates their process of booking. It is more suitable to get their passport details additionally. |
+|  | Extended - with passport number: the DOCS information is required in the full format, ie. also including the passport number. |
+| **Mandatory** | If you check this option and enter any of the parameters above, the passenger cannot finish the booking without entering the DOCS information, and GOL IBE returns an error notification. |
 
-### Nastavení povinných informací o dokladech - FOID
+### Settings of mandatory document information - FOID
 
 ![](../.gitbook/assets/image%20%285%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
-| **Státy vyžadující pas** | Zkratky zemí, pro které jsou vyžadovány údaje FOID \(pokud vkládáte více kódů, je nutné je oddělit čárkou\). Zadaný stát vyžaduje pas, pokud je na jeho území letiště odletu, přestupu, nebo cíle cesty. Pokud má být nastavení platné pro všechny státy, je nutné vyplnit kód: ALL. |
-| **Přepravci vyžadující pas** | Kódy přepravců, kteří vyžadují vložení FOID. Pokud je dopravce v itineráři \(marketingový nebo operující\), pak bude povinné zadávání čísel pasů bez ohledu na destinaci, tedy pro veškeré destinace s tímto dopravcem. Pokud má být nastavení platné pro všechny státy, je nutné vyplnit kód: ALL. |
-| **Vyplnění je povinné** | Při zaškrtnutí této volby a vyplnění některého z parametrů výše nemůže klient bez vyplnění FOID údajů dokončit rezervaci, a aplikace zobrazí chybu. |
+| **Countries requiring passport** | Codes of countries for which FOID information is required \(if you enter multiple codes, you need to separate them by comma\). Entered countries require a passport, if the departure, transfer or arrival airport is in its territory. If the settings should be applied for all countries, you need to enter the code _ALL_. |
+| **Carriers requiring passport** | Codes of carriers for which FOID information is required. If the carrier is in the itinerary \(either marketing or operating\), the passenger will be required to enter their passport details regardless of the destination, ie. for all destinations operated by this carrier. If the settings should be applied for all countries, you need to enter the code _ALL_. |
+| **Mandatory** | If you check this option and enter any of the parameters above, the passenger cannot finish the booking without entering the FOID information, and GOL IBE returns an error notification. |
+
+
 
