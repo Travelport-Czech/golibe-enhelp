@@ -124,66 +124,38 @@ In case of return connections, you need to do the same in the section _Backward_
 
 ![](../.gitbook/assets/image%20%2836%29.png)
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Pole</th>
-      <th style="text-align:left">Popis</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><b>Search together with following</b>
-      </td>
-      <td style="text-align:left">
-        <p>If you check this,</p>
-        <p>Je-li zaškrtnuto, availabilita se ověřuje společně s následujícím segmentem
-          pomocí O&D, tedy na celou cestu. V opačném případě je availabilita ověřována
-          jednotlivě po segmentech pro každou část cesty zvlášť.</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>Inhibit status link</b>
-      </td>
-      <td style="text-align:left">Je-li zaškrtnuto, není ani v případech, ve kterých je to možné, availabilita
-        ověřována přímo u dopravce za pomocí tzv. seamless availability. Nezaškrtnutí
-        může při zvýšené míře užití negativně ovlivnit poměr dotazování na dopravce
-        oproti počtu rezervací a vyvolat sankce dopravce.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>Posun + 1 den</b>
-      </td>
-      <td style="text-align:left">Je-li zaškrtnuto, pak je pro ověřování dostupnosti dotaz na následující
-        segment letu pokládán o den později. Je využíváno ve speciálních případech
-        dálkových letů.</td>
-    </tr>
-  </tbody>
-</table>### Jak Promoakce fungují? Zjednodušené schema
+| Pole | Popis |
+| :--- | :--- |
+| **Search together with following** | If you check this, availability is verified together with the following segment based on O&D, ie. for the whole journey. Otherwise, availability is verified for individual segments separately for each part of the journey. |
+| **Inhibit status link** | If you check this, availability is not verified at the carrier via seamless availability, even if it's possible. If not checked, a higher use intensity can negatively impact the ratio between the number of requests sent to the carrier and the number of bookings, which may lead to sanctions from the carrier. |
+| **Add +1 day** | If you check this, GOL IBE adds one day to the availability verification request. This is useful in special cases of long-haul flights. |
 
-1. Po kliku na „Spustit cache“ nebo v pravidelném nočním občerstvování dostupnosti Promoakcí se z nastavení sestaví kalendář pro cestu tam a zpět, ve kterých dnech je potřeba načíst informace o dostupnosti. Pro tento kalendář se zjistí dostupnost pro všechny dny.
-2. Promoakce se zobrazí na webu a při prokliknutí se zobrazí stránka kalendářů, kde jsou vysvíceny dostupné dny, kde je dostupná zadaná třída a data nejsou omezena jinou podmínkou \(například AP\).
-3. Pokud zákazník vybere den v kalendáři pro cestu tam, aplikace překontroluje podle podmínek zadaných v zázemí, které dny pro cestu zpět jsou akceptovatelné. Ty pak nechá rozsvícené, ostatní zhasne.
-4. Po výběru i dne pro cestu zpět se provede ověření dostupnosti pro tuto přesnou kombinaci dní, Provede se ocenění a výsledná cena se porovná se zadanou v zázemí. Pokud bude cena vyšší o více jak 10 %, nebo nebude dostupnost, systém odpoví chybou. V opačném případě zákazník přejde na výběr konkrétních letů na další stránku.
+### How do special offers work? Simplified scheme
 
-## Co překontrolovat, pokud zadaná Promoakce nefunguje správně?
+1. When you click _RUN CACHE_ or during the regular night refresh of availability of special offers, GOL IBE creates a calendar based on the settings for the onward and return journey. The calendar shows dates for which the availability information needs to be retrieved. GOL IBE retrieves availability for all days shown in the calendar.
+2. Special offers are displayed on your website and when the customer clicks on one of them, GOL IBE shows them calendars with highlighted days on which the selected class is available and the date is not restricted by another condition \(for example AP\).
+3. When the customer selects a date in the calendar for the onward journey, GOL IBE checks your settings to see which dates are available for the return journey. Only those are then highlighted. 
+4. When the customer selects also a date for the return journey, GOL IBE checks availability for this precise combination of days, gets the fare quote and the final price is compared with the one set up in the back office. If the price is higher by more than 10 % or if there's no availability, GOL IBE returns an error notification. Otherwise the customer continues to the next page where they select specific flights.
 
-### **Existuje celé spojení na neutrální availabilitě?**
+## What should you check, if the created special offer does not function properly?
 
-Např. zadáváte promoakci A20MAYPRGPTY.MAD/IB. Pokud takové spojení nenajdete na neutrální availabilitě, může to být způsobeno tím, že tak dlouhý přestup není na neutrální availabilitě možný. V zázemí se to obvykle projeví tak, že na konci řádku promoakce jsou zobrazeny červené křížky.
+### **Does the whole connection exist in neutral availability?**
 
-### **Není u vícesegmentové cesty posun o den?**
+For example, you may want to create a special offer A20MAYPRGPTY.MAD/IB. If such a connection doesn't exist in neutral availability, the reason may be that such a long transfer flight is not possible in neutral availability. In the back office, this is then usually shown by red crosses at the end of the row with the special offer.
 
-Pokud je cesta vícesegmentová, může být nástup na druhý nebo třetí segment cesty nástup až další den. Pokud to tak je, je třeba tuto skutečnost zaškrtnout v sekci „Vazby“ checkboxem: „Posun +1 den:“
+### **Doesn't a multi-segment journey include a 1-day shift?**
 
-### **Jsou pro Promoakci dostupné zadané knihovací třídy?**
+If the journey consists of multiple segments, the departure date on the second or third segment may be shifted by one day. If that's the case, you have to acknowledge that by checking _Add +1 day_ on the _Bindings_ tab.
 
-U některých nejnižších cen již nemusí být dostupné požadované třídy. Prosím překontrolujte stav otevření tříd na neutrální availabilitě.
+### **Are selected booking classes available for the special offer?**
 
-### **Existuje tarif pro daného dopravce?**
+For some of the lowest prices, the requested booking classes may no longer be available. Please check in neutral availability which classes are open.
 
-Pokud se podíváte v systému vstupem FD na FareDisplay, najdete tam zadaný FareBasis u správného kódu dopravce? Pokud by Farebasis patřil jinému než marketingovému dopravci, je třeba toto zadat do pole „Fare Basis patří dopravci:“.
+### **Does a fare exist for the selected carrier?**
 
-### **Je možné nasimulovat rezervaci s oceněním přes terminál?**
+If you have a look at the Fare Display by using the FD entry in the reservation system, can you see the selected Fare Basis with the correct carrier code? If the Fare Basis belongs to a carrier other than the marketing carrier, you need to acknowledge that in the field _Fare Basis Carrier_.
 
-Při existenci dostupnosti a tarifu - je možné v terminálu rezervaci vytvořit a ocenit?
+### **Can you simulate the booking using the fare quote via your terminal window?**
+
+If both availability and the fare exist - are you able to create the booking via your terminal window and get a fare quote for it?
 
