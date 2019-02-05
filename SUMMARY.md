@@ -20,8 +20,8 @@
 
 * [Agency profile](pokrocila-nastaveni/profil-agentury.md)
 * [Special offers](pokrocila-nastaveni/promoakce.md)
-* [Provize leteckých společností](pokrocila-nastaveni/provize-leteckych-spolecnosti.md)
-* [Paralelní dotazování](pokrocila-nastaveni/paraleleni-dotazovani.md)
+* [Commission from airlines](pokrocila-nastaveni/provize-leteckych-spolecnosti.md)
+* [Parallel requests](pokrocila-nastaveni/paraleleni-dotazovani.md)
 * [Nabídka externích služeb](pokrocila-nastaveni/nabidka-externich-sluzeb.md)
 * [Servisní poplatek z provize letecké společnosti](pokrocila-nastaveni/servisni-poplatek-z-provize-letecke-spolecnosti.md)
 * [MultiPCC dotazování](pokrocila-nastaveni/multipcc-dotazovani.md)

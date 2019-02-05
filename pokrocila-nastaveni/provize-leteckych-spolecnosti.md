@@ -1,45 +1,45 @@
-# Provize leteckých společností
+# Commission from airlines
 
-Letecké společností sice čím dál méně, avšak stále poskytují cestovním agenturám provize z prodeje letenek. Provize můžete snadno nastavit a ty pak budou automaticky vkládány do rezervací.
+Airlines tend to give commissions from sold tickets to travel agencies less and less, but they still do. You can easily set up these commissions and GOL IBE then adds them automatically to the bookings.
 
-V zázemí přejděte do menu **Ceny -&gt; Provize leteckých společností**
+In the back office, go to **Prices -&gt; Commissions** 
 
-Na stránce uvidíte přehled již nastavených servisních poplatků, které můžete smazat klikem na **SMAŽ**, nebo upravit klikem na **EDIT**.
+You will see a list of already set up commissions. You can either delete them by clicking on **DELETE**, or edit them by clicking on **EDIT**.
 
-Pro přidání nového servisního poplatku klikněte na tlačítko:
+To add a new commission, click on the button:
 
 ![](../.gitbook/assets/image%20%2810%29.png)
 
-## 1. Zvolte parametry provize
+## 1. Select commission parameters
 
 ![](../.gitbook/assets/image%20%2842%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
-| **Validační dopravce** | Dopravce na kterého je vystavena letenka |
-| **Místo odletu & Cíl cesty** |  |
+| **Plating carrier** | The carrier for which the ticket is issued. |
+| **Origin & Destination** |  |
 
 ![](../.gitbook/assets/image%20%2834%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
-| **Obousměrné** | Při zaškrtnutí platí pravidlo pro oba směry, například při zadání pro PRG-LHR platí i pro LHR-RG |
+| **Both ways** | If you check this, the rule applies for both directions, eg. if set for PRG-LHR, it applies also for LHR-PRG. |
 
 ![](../.gitbook/assets/image%20%2861%29.png)
 
 | **Pole** | Popis |
 | :--- | :--- |
-| **Místo odletu & Cíl cesty** | Bez omezení - pro jakékoliv odletové místo a cíl cesty |
-|  | IATA kód - IATA kód destinace |
-|  | Typ destinace - světadíl a jiné ustálené množiny destinací |
-|  | Stát |
+| **Origin & Destination** | Without restrictions - for any departure and arrival point |
+|  | IATA code - IATA code of the destination |
+|  | Destination type - continents and other defined sets of destinations |
+|  | Country |
 
 ![](../.gitbook/assets/image%20%289%29.png)
 
 | **Pole** | Popis |
 | :--- | :--- |
-| **Typ provize** | Fixní částka - pevná částka provize v měně agentury |
-|  | Procenta - % částka provize vypočítávaná z výše tarifu |
+| **Commission** | Fixed - a fixed amount of the commission in agency's default currency |
+|  | % - a percentual amount of the commission calculated from the fare amount |
 
 ![](https://travelport.gitbooks.io/gol-ibe-cz/content/assets/commission8.png)
 
@@ -47,61 +47,61 @@ Pro přidání nového servisního poplatku klikněte na tlačítko:
 
 | **Pole** | Popis |
 | :--- | :--- |
-| **Knihovací třída \(RBD\)** | Knihovací třídy, které smí být v rezervaci, aby pravidlo platilo. |
+| **Booking class \(RBD\)** | Booking classes that are allowed in the booking in order for the rule to apply. |
 |  |  |
 
 ![](../.gitbook/assets/image%20%2820%29.png)
 
 | **Pole** | Popis |
 | :--- | :--- |
-| **Marketingoví dopravci** | Bez omezení - v rezervaci může být jakýkoliv marketingový dopravce, není nastaveno žádné omezení. |
-|  | Různí marketingoví dopravci - pravidlo se uplatní jen v případě, že je v itineráři alespoň jeden jiný marketingový dopravce, než je validační. |
-|  | Pouze validační dopravce - pravidlo se uplatní jen v případě, že je v itineráři zastoupen pouze validační dopravce. |
-|  | Pouze jiní, než je validační dopravce - pravidlo se uplatní jen v případě, že v itineráři není zastoupen validační dopravce. |
+| **Marketing carriers** | Without restrictions - the booking can include any marketing carrier, there are no restrictions. |
+|  | Different marketing carriers - the rule applies only if the itinerary includes at least one marketing carrier, other than the plating carrier. |
+|  | Plating carrier only - the rule applies only if the itinerary includes the plating carrier exclusively. |
+|  | Only other than plating carrier - the rule applies only if the itinerary does not include the plating carrier. |
 
 ![](../.gitbook/assets/image%20%286%29.png)
 
 | **Pole** | Popis |
 | :--- | :--- |
-| **Operující dopravci** | Bez omezení - v rezervaci může být jakýkoliv operující dopravce, není nastaveno žádné omezení. |
-|  | Povoleni pouze vyjmenovaní - v itineráři musí být zastoupeni pouze vyjmenovaní operující dopravci. Volba je doplněna polem pro vložení IATA kódů dopravců oddělených čárkou. |
-|  | Nepovoleni vyjmenovaní - v itineráři nesmí být zastoupen žádný z vyjmenovaných dopravců. Volba je doplněna polem pro vložení IATA kódů dopravců oddělených čárkou. |
-|  | Musí obsahovat všechny vyjmenované - v itineráři musí být zastoupeni **všichni** uvedení operující dopravci. Itinerář nesmí \_\*\*\_navíc obsahovat ještě nějakého dalšího. Volba je doplněna polem pro vložení IATA kódů dopravců oddělených čárkou. |
+| **Operating carriers** | Without restrictions -  the booking can include any operating carrier, there are no restrictions. |
+|  | Operated only by some of the listed - the itinerary can include only the listed operating carriers. This option offers a field where you can enter IATA codes of the carriers separated by comma. |
+|  | Not operated by - the itinerary cannot include any of the listed carriers. This option offers a field where you can enter IATA codes of the carriers separated by comma. |
+|  | Operated by all listed - the itinerary must include **all** selected operating carriers. Moreover, the itinerary cannot include any other carrier. This option offers a field where you can enter IATA codes of the carriers separated by comma. |
 
 ![](../.gitbook/assets/image%20%2862%29.png)
 
 | **Pole** | Popis |
 | :--- | :--- |
-| **Priorita** | Priority se uplatní, pokud je nastaveno více různých provizí na konkrétní leteckou společnosti. GOL pak postupuje následujícím způsobem: 1. Vybere všechna pravidla pro validačního dopravce z rezervace, 2. Seřadí pravidla dle nastavené "Priority", 3. Vezme pravidlo s nejvyšší prioritou \(vyšší číslo = vyšší priorita\) a zkontroluje, že vyhovuje rezervaci. Pokud ano, tak zapíše příslušnou provizi do rezervace. Pokud ne, pokračuje dalším pravidlem dle priority. |
+| **Priority** | Priorities are used in case there are several different commissions defined for a particular carrier. GOL IBE then proceeds as follows: 1. It retrieves all rules for the plating carrier from the booking, 2. It sorts the rules based on the defined _Priority_, 3. It takes the rule with the highest priority \(higher number = higher priority\) and it checks whether it can be applied to the booking. If so, it records the relevant commission to the booking. If not, it applies the next rule in line based on priority. |
 
-## 2. Zvolte typ cesty
+## 2. Select the type of journey
 
 ![](../.gitbook/assets/image%20%2844%29.png)
 
 | **Pole** | Popis |
 | :--- | :--- |
-| **Jednosměrné lety** | Při zaškrtnutí se pravidlo použije jen na jednosměrné lety. |
-| **Zpáteční lety** | Při zaškrtnutí se pravidlo uplatní jen na zpáteční lety. |
-| **Jednosměrné lety & Zpáteční lety** | Při zaškrtnutí obou pravidel je pravidlo aplikováno pro oba druhy cest. |
+| **One way flights** | If you check this, the rule is applied only for one-way flights. |
+| **Return flights** | If you check this, the rule is applied only for return flights. |
+| **One way flights & Return flights** | If you check both options, the rule is applied for both types of journey. |
 
-## 3. Zvolte období platnosti
+## 3. Select the validity period
 
 ![](../.gitbook/assets/image%20%287%29.png)
 
 | Pole | Popis |
 | :--- | :--- |
-| Provizi lze uplatnit od-do | Nastavení v jakém období je pravidlo pro provizi aktivní. |
-| Cesta tam \(zpět\) možná od-do | Nastavení povoleného rozsahu dat, ve kterých je uskutečněná cesta. |
+| Sales since - till | Here you can set up the period during which the commission is active. |
+| Departures \(Returns\) since - till | Here you can set up the allowed date range for the journey. |
 
-## Jak pravidla otestovat?
+## How can you test out the rules?
 
-Ověřit, jak vám budou provize napočítány na konkrétní rezervaci, můžete ověřit přes [tuto stránku](https://cm.golibe.com/). Autorizační Token vám na požádání poskytneme.
+You can use [this page](https://cm.golibe.com/) to verify how the commissions will be calculated for a specific booking. Let us know and we're happy to create an authorization token for you.
 
-## Využití pro aplikace třetích stran
+## How to use your commission settings for 3rd-party applications?
 
-V případě, že chcete nastavené provize použít i pro vaše další systémy a vkládat tak provize i do ne-GOL IBE rezervací, je třeba nastavení exportovat klikem na tlačítko:
+If you wish to use the set commissions also for your other systems, in other words to enter your commissions also to non-GOL IBE bookings, you need to export your settings by clicking on:
 
 ![](../.gitbook/assets/image%20%284%29.png)
 
-Popis programátorského napojení [najdete zde](https://misecz.gitbooks.io/commission-microservice/content/).
+[Here ](https://misecz.gitbooks.io/commission-microservice/content/)is the integration instruction for programmers.
 
