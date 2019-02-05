@@ -22,7 +22,7 @@
 * [Special offers](pokrocila-nastaveni/promoakce.md)
 * [Commission from airlines](pokrocila-nastaveni/provize-leteckych-spolecnosti.md)
 * [Parallel requests](pokrocila-nastaveni/paraleleni-dotazovani.md)
-* [Nabídka externích služeb](pokrocila-nastaveni/nabidka-externich-sluzeb.md)
+* [Offering external services](pokrocila-nastaveni/nabidka-externich-sluzeb.md)
 * [Servisní poplatek z provize letecké společnosti](pokrocila-nastaveni/servisni-poplatek-z-provize-letecke-spolecnosti.md)
 * [MultiPCC dotazování](pokrocila-nastaveni/multipcc-dotazovani.md)
 * [Export dat](pokrocila-nastaveni/export-dat/README.md)

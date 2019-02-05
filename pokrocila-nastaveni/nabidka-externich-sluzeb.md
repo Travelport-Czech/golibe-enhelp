@@ -1,43 +1,45 @@
-# Nabídka externích služeb
+# Offering external services
 
-Po dokončení rezervace letenky je možné navázat na libovolnou další externí službu přes tzv. deeplink. Příkladem může být například rent-car společnost, jejíž nabídka bude vytvořena přímo na data příletu do destinace a odletu zpět. Může být připravena ihned po dokončení rezervace letenky jako proklik, nebo iframe s výsledky.
+After the customer books the air ticket, you can offer them any other external services through a deeplink. An example would be a car rental offer customized for the arrival and departure date. It can be shown right after the air ticket booking is finished as a link or an iframe with search results.
 
-Dotaz se staví za pomocí tzv. placeholderů, které se vkládají na místo, kam mají přijít informace z rezervace.
+The request is created with placeholders that you put where you want the booking information to be displayed.
 
-Například:
+For example:
 
 `http://www.carbook.com/ELBanner.do?iataCode={itinerary.stream.1.destination}&amp;display=airplane&amp;affiliateCode=testAgency&amp;puDay={itinerary.stay.1.start.day}......`
 
-| Placeholder | Příklad vracené informace | Popis |
+| Placeholder | Example of returned information | Description |
 | :--- | :--- | :--- |
-| **{language}** | cs | Kód jazykové verze |
-| **{reservation.locator}** | BRK5XA | Galileo rezervační kód |
-| **{reservation.type \(flight/hotel\)}** | flight | Typ služby |
-| **{itinerary.streams.count}** | 2 | Počet cest |
-| **{itinerary.stream.1.origin}** | PRG | Odkud \(cesta tam\) |
-| **{itinerary.stream.1.destination}** | SYD | Kam \(cesta tam\) |
-| **{itinerary.stream.1.start}** | 2016-12-06T18:40:00 | Odlet \(cesta tam\) |
-| **{itinerary.stream.1.end}** | 2016-12-08T07:20:00 | Přílet do destinace \(cesta tam\) |
-| **{itinerary.stream.2.origin}** | SYD | Odkud \(cesta zpět\) |
-| **{itinerary.stream.2.destination}** | PRG | Kam \(cesta zpět\) |
-| **{itinerary.stream.2.start}** | 2016-12-24T15:55:00 | Odlet \(cesta zpět\) |
-| **{itinerary.stream.2.end}** | 2016-12-25T13:55:00 | Přílet do destinace \(cesta zpět\) |
-| **{itinerary.stays.count}** | 1 | Počet přerušení cesty |
-| **{itinerary.stay.1.start.day}** | 08 | Od kdy zůstává cestující v destinaci |
+| **{language}** | cs | Language version code |
+| **{reservation.locator}** | BRK5XA | Galileo reservation code |
+| **{reservation.type \(flight/hotel\)}** | flight | Type of service |
+| **{itinerary.streams.count}** | 2 | Number of journeys |
+| **{itinerary.stream.1.origin}** | PRG | Where from \(onward journey\) |
+| **{itinerary.stream.1.destination}** | SYD | Where to \(onward journey\) |
+| **{itinerary.stream.1.start}** | 2016-12-06T18:40:00 | Departure \(onward journey\) |
+| **{itinerary.stream.1.end}** | 2016-12-08T07:20:00 | Arrival to destination \(onward journey\) |
+| **{itinerary.stream.2.origin}** | SYD | Where from \(return journey\) |
+| **{itinerary.stream.2.destination}** | PRG | Where to \(return journey\) |
+| **{itinerary.stream.2.start}** | 2016-12-24T15:55:00 | Departure \(return journey\) |
+| **{itinerary.stream.2.end}** | 2016-12-25T13:55:00 | Arrival to destination \(return journey\) |
+| **{itinerary.stays.count}** | 1 | Number of stopovers |
+| **{itinerary.stay.1.start.day}** | 08 | From when passengers stay in the destination |
 | **{itinerary.stay.1.start.month}** | 12 |  |
 | **{itinerary.stay.1.start.year}** | 2016 |  |
 | **{itinerary.stay.1.start.hour}** | 07 |  |
 | **{itinerary.stay.1.start.minute}** | 20 |  |
-| **{itinerary.stay.1.end.day}** | 24 | Do kdy zůstává cestující v destinaci |
+| **{itinerary.stay.1.end.day}** | 24 | Until when passengers stay in the destination |
 | **{itinerary.stay.1.end.month}** | 12 |  |
 | **{itinerary.stay.1.end.year}** | 2016 |  |
 | **{itinerary.stay.1.end.hour}** | 15 |  |
 | **{itinerary.stay.1.end.minute}** | 55 |  |
-| **{passengers.count}** | 1 | Počet cestujících |
-| **{passenger.1.firstname}** | martinez | Jméno 1. cestujícího |
-| **{passenger.1.surname}** | martin | Příjmení 1. cestujícího |
-| **{passenger.1.age}** | 30 | Věk 1. cestujícího \(pokud není zadáno, doplní se 30\) |
-| **{passenger.1.birthdate}** | 1986-12-06 | Datum narození 1. cestujícího \(pokud není zadáno, doplní se pro věk 30\) |
+| **{passengers.count}** | 1 | Number of passengers |
+| **{passenger.1.firstname}** | martinez | First name of the 1st passenger |
+| **{passenger.1.surname}** | martin | Last name of the 1st passenger |
+| **{passenger.1.age}** | 30 | Age of the 1st passenger \(if not entered, GOL IBE enters 30\) |
+| **{passenger.1.birthdate}** | 1986-12-06 | Date of birth of the 1st passenger \(if not entered, GOL IBE enters a date for the age of 30\) |
+
+You can add everything through the section **Supporting texts**. You can add the link to 
 
 Vše vložíte přes Menu **Doprovodné texty**, kam můžete link vložit do typ textu: **Letenky - Text - Stránka úspěšná rezervace letenky**
 

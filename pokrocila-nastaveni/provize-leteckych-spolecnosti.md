@@ -14,7 +14,7 @@ To add a new commission, click on the button:
 
 ![](../.gitbook/assets/image%20%2842%29.png)
 
-| Pole | Popis |
+| Item | Description |
 | :--- | :--- |
 | **Plating carrier** | The carrier for which the ticket is issued. |
 | **Origin & Destination** |  |

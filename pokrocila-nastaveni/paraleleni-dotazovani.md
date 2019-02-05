@@ -8,7 +8,7 @@ Edit/New preference
 
 ![](../.gitbook/assets/image%20%2851%29.png)
 
-| Pole | Popis |
+| Item | Description |
 | :--- | :--- |
 | **Connector** | For which connector the preference should be used. |
 | **Type of origin** | Type of origin point. You can select the itinerary either by the destination type or by directly entering an IATA code - see the item below. See more on destination types in chapter 7.5. |
