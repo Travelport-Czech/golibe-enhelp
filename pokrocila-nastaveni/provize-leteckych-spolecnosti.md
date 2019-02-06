@@ -1,8 +1,8 @@
-# Commission from airlines
+# Commissions from airlines
 
 Airlines tend to give commissions from sold tickets to travel agencies less and less, but they still do. You can easily set up these commissions and GOL IBE then adds them automatically to the bookings.
 
-In the back office, go to **Prices -&gt; Commissions** 
+In the back office, go to **Prices -&gt; Commissions**.
 
 You will see a list of already set up commissions. You can either delete them by clicking on **DELETE**, or edit them by clicking on **EDIT**.
 
@@ -72,7 +72,7 @@ To add a new commission, click on the button:
 
 | Item | Description |
 | :--- | :--- |
-| **Priority** | Priorities are used in case there are several different commissions defined for a particular carrier. GOL IBE then proceeds as follows: 1. It retrieves all rules for the plating carrier from the booking, 2. It sorts the rules based on the defined _Priority_, 3. It takes the rule with the highest priority \(higher number = higher priority\) and it checks whether it can be applied to the booking. If so, it records the relevant commission to the booking. If not, it applies the next rule in line based on priority. |
+| **Priority** | Priorities are used in case there are several different commissions defined for a particular carrier. GOL IBE then proceeds as follows: 1. It retrieves all rules for the plating carrier from the booking, 2. It sorts the rules based on the defined _**Priority**_, 3. It takes the rule with the highest priority \(higher number = higher priority\) and it checks whether it can be applied to the booking. If so, it records the relevant commission to the booking. If not, it applies the next rule in line based on priority. |
 
 ## 2. Select the type of journey
 
@@ -103,5 +103,5 @@ If you wish to use the set commissions also for your other systems, in other wor
 
 ![](../.gitbook/assets/image%20%284%29.png)
 
-[Here ](https://misecz.gitbooks.io/commission-microservice/content/)is the integration instruction for programmers.
+[Here](https://misecz.gitbooks.io/commission-microservice/content/) is the integration instruction for programmers.
 

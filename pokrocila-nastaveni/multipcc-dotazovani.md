@@ -10,7 +10,7 @@ List of created profiles
 
 **Editing of MultiPCC request profile**
 
-You can edit the profile by clicking the **Edit** button at the end of the row with the relevant profile.
+You can edit the profile by clicking on the **Edit** button at the end of the row with the relevant profile.
 
 The basic settings for communication with the GDS remains the same as in [Agency profile](profil-agentury.md).
 
@@ -27,6 +27,6 @@ This settings also includes the section **Currency and conversion**.
 | **Market** | Selection of the market to which your HAP is connected. |
 | **PCC currency in Galileo** | Selection of your Galileo GDS PCC. |
 | **Exchange rate provided by Galileo** | Here you can set up whether the price should be converted using the Galileo exchange rate, or a fixed exchange rate. |
-| **With multiplier / Fixed exchange rate** | This item is related to the checkbox _Exchange rate provided by Galileo_. With multiplier: the ticket price is multipled by the entered amount. Fixed exchange rate: an exchange rate used for multiplication. |
+| **With multiplier / Fixed exchange rate** | This item is related to the checkbox _**Exchange rate provided by Galileo**_. With multiplier: the ticket price is multiplied by the entered amount. Fixed exchange rate: an exchange rate used for multiplication. |
 | **Display relevant offers only if they're cheaper by** | Here you can decide to display offers at your front-end that are cheaper by the entered amount. |
 

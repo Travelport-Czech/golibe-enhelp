@@ -1,4 +1,4 @@
-# Informace o rezervacích v CSV
+# Information on bookings in CSV
 
 You can export the CSV data under **Statistics** and **Air tickets reservations in CSV**.
 

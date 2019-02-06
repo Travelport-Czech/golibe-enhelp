@@ -1,6 +1,6 @@
 # MIR
 
-MIR \(Machine Interface Record\) is one of the simplest tools provided by Galileo for generating data on bookings. These are text files with a fixed format, generated directly by the Galileo system regardless of whether the bookings were created via GOL IBE.
+MIR \(Machine Interface Record\) is one of the simplest tools provided by Travelport for generating data on bookings. These are text files with a fixed format, generated directly by the Galileo system regardless of whether the bookings were created via GOL IBE.
 
 You can find the documentation [&gt;here&lt;](https://support.travelport.com/webhelp/MIR/Default.htm).
 
@@ -17,7 +17,7 @@ Besides the standard content, GOL IBE adds the following items to the bookings, 
 
 **A12PRGE \*MARTIN//TRAVELPORTGDS.CZ  
 A12** _- section in which you can find the information_  
-**PRGE \*** - statistical information  
+**PRGE \*** - _statistical information_  
 _**MARTIN//TRAVELPORTGDS.CZ** - \_email address, // is used instead of @ \(the reservation system uses @ for other special features and therefore this character is not used\)._
 
 ## Billing address:
