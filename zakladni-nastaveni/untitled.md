@@ -16,7 +16,7 @@ You don't need to select any carrier, in which case the rule applies for all car
 
 ![](../.gitbook/assets/image%20%2841%29.png)
 
-| Pole | Popis |
+| Item | Description |
 | :--- | :--- |
 | **Carrier** | Selection of a carrier for which the rule applies |
 | **Connector** | Air Ticket Galileo - fees for tickets from Galileo GDS |
@@ -26,13 +26,13 @@ You don't need to select any carrier, in which case the rule applies for all car
 
 ![](../.gitbook/assets/image%20%2853%29.png)
 
-| **Pole** | Popis |
+| **Item** | Description |
 | :--- | :--- |
 | **Validity conditions** | Generic validity - valid without any limitations |
 
 ![](../.gitbook/assets/image%20%2832%29.png)
 
-| **Pole** | Popis |
+| **Item** | Description |
 | :--- | :--- |
 | **Validity conditions** | Valid for destinations - limits the validity to specified types of journeys and connections |
 | **Typ** | OW+RT - valid for one-way and return journeys |
@@ -44,7 +44,7 @@ You don't need to select any carrier, in which case the rule applies for all car
 
 ![](../.gitbook/assets/image.png)
 
-| **Pole** | Popis |
+| **Item** | Description |
 | :--- | :--- |
 | **Validity conditions** | Valid for destination types - limits the validity to groups of destinations |
 | **Type** | OW+RT - valid for one-way and return journeys |
@@ -56,7 +56,7 @@ You don't need to select any carrier, in which case the rule applies for all car
 
 ![](../.gitbook/assets/image%20%2822%29.png)
 
-| **Pole** | Popis |
+| **Item** | Description |
 | :--- | :--- |
 | **Set fee value** | Fixed fee - a fixed amount in your default currency |
 | **Fixed fee** | Numerical value of the fee |
@@ -87,7 +87,7 @@ a\) **You have more Dealers \(websites\)** and you want to define a different se
 
 ![](../.gitbook/assets/image%20%2817%29.png)
 
-| Pole | Popis |
+| Item | Description |
 | :--- | :--- |
 | **Dealer** | Výběr pro kterého dealera nastavení platí |
 
@@ -95,7 +95,7 @@ b\) **You have a registered customer** and you want to define a specific service
 
 ![](../.gitbook/assets/image%20%2850%29.png)
 
-| **Pole** | Popis |
+| **Item** | Description |
 | :--- | :--- |
 | **Customer validity** | General valid - not limited to a particular customer |
 |  | Valid for chosen one - a specific registered customer whom you can select from the list. |

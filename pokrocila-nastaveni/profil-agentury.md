@@ -4,7 +4,7 @@ Under **Agency -&gt; Agency settings**, you can change the basic settings affect
 
 ![](../.gitbook/assets/image%20%2849%29.png)
 
-| Pole | Popis |
+| Item | Description |
 | :--- | :--- |
 | **Time zone** | In order for some settings and calculations to function properly, it is neccessary to select the correct time zone where your agency is located. This setting affects also for example calculation of your working hours. |
 
@@ -16,7 +16,7 @@ Here you can set up the connector for air tickets from Galileo GDS.
 
 ![](../.gitbook/assets/image%20%2821%29.png)
 
-| Pole | Popis |
+| Item | Description |
 | :--- | :--- |
 | **Currency** | The currency in which search results are displayed. If the currency differs from your default one set in Galileo GDS, an exchange rate is used. The exchange rate is used to calculate the prices displayed to customers. The original prices remain in Galileo GDS. |
 | **Last ticketing date** | The date displayed to customers as the maximum date for paying for / issuing tickets. It is shown during the booking process and also in booking confirmations. |
@@ -33,7 +33,7 @@ Here you can set up the connector for air tickets from Galileo GDS.
 
 ![](../.gitbook/assets/image%20%2846%29.png)
 
-| Pole | Popis |
+| Item | Description |
 | :--- | :--- |
 | **Host Access Profile** | You need to configure a MasterGTID and create a robotic GWS sign-on withe settings Multiterminal U \(Unlimited\). With that information ready, request a HAP at API Support. DynGalileoProd or DynGalileoCopy designates whether this the Production or the Copy system. |
 | **Pseudo City Code** | An agency PCC used for searching and booking. You always need to have a separate PCC, different from the one used for your agency. In AAT, set PLAT to Y and AUTH carriers or set the TKT agency. |
@@ -48,8 +48,8 @@ Here you can set up the connector for air tickets from Galileo GDS.
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Pole</th>
-      <th style="text-align:left">Popis</th>
+      <th style="text-align:left">Item</th>
+      <th style="text-align:left">Description</th>
     </tr>
   </thead>
   <tbody>
@@ -74,7 +74,7 @@ Here you can set up the connector for air tickets from Galileo GDS.
   </tbody>
 </table>![](../.gitbook/assets/image%20%2858%29.png)
 
-| Pole | Popis |
+| Item | Description |
 | :--- | :--- |
 | **Pseudo City Code - priority** | An agency PCC where copies of bookings created on the same day are sent. This is to make sure that your agents process bookings in time, if automated ticketing is not activated. |
 | **PNR Queue number - priority** | A Queue within the above set PCC. Created bookings are sent to this Queue. |
@@ -88,7 +88,7 @@ This setting is similar to the above for Primary HAP. A secondary HAP is used, i
 
 ![](../.gitbook/assets/image%20%2826%29.png)
 
-| Pole | Popis |
+| Item | Description |
 | :--- | :--- |
 | **Allowed Store price higher than BB maximum of** | The limit value of how much higher the maximum price saved in the booking may be higher than the price returned during the search. If the limit is exceeded, from customer's perspective the booking is not finished and it is cancelled in the GDS. |
 | **Allowed Store price smaller than BB maximum of** | The limit value of how much the lowest price saved in the booking may be lower than the price returned during the search. If the limit is exceeded, from customer's perspective the booking is not finished and it is cancelled in the GDS. |
@@ -99,7 +99,7 @@ This setting is similar to the above for Primary HAP. A secondary HAP is used, i
 
 ![](../.gitbook/assets/image%20%288%29.png)
 
-| Pole | Popis |
+| Item | Description |
 | :--- | :--- |
 | **Maximum of automatic special offers** | When you enter a value, you activate automated saving of offers for each created booking to suggestions of special offers. You can then activate the special offers in the back office. |
 | **Create automatic special offers with fixed fee** | If checked, GOL IBE automatically saves the service fee from the original bookings for the suggested special offers. |
@@ -108,7 +108,7 @@ This setting is similar to the above for Primary HAP. A secondary HAP is used, i
 
 ![](../.gitbook/assets/image%20%2857%29.png)
 
-| Pole | Popis |
+| Item | Description |
 | :--- | :--- |
 | **Countries requiring passport** | Codes of countries for which DOCS information is required \(if you enter multiple codes, you need to separate them by comma\). Entered countries require a passport, if the departure, transfer or arrival airport is in its territory. If the settings should be applied for all countries, you need to enter the code _ALL_. |
 | **Carriers requiring pass** | Codes of carriers for which DOCS information is required. If the carrier is in the itinerary \(either marketing or operating\), the passenger will be required to enter their passport details regardless of the destination, ie. for all destinations operated by this carrier. If the settings should be applied for all countries, you need to enter the code _ALL_. |
@@ -120,7 +120,7 @@ This setting is similar to the above for Primary HAP. A secondary HAP is used, i
 
 ![](../.gitbook/assets/image%20%285%29.png)
 
-| Pole | Popis |
+| Item | Description |
 | :--- | :--- |
 | **Countries requiring passport** | Codes of countries for which FOID information is required \(if you enter multiple codes, you need to separate them by comma\). Entered countries require a passport, if the departure, transfer or arrival airport is in its territory. If the settings should be applied for all countries, you need to enter the code _ALL_. |
 | **Carriers requiring passport** | Codes of carriers for which FOID information is required. If the carrier is in the itinerary \(either marketing or operating\), the passenger will be required to enter their passport details regardless of the destination, ie. for all destinations operated by this carrier. If the settings should be applied for all countries, you need to enter the code _ALL_. |

@@ -21,13 +21,13 @@ To add a new commission, click on the button:
 
 ![](../.gitbook/assets/image%20%2834%29.png)
 
-| Pole | Popis |
+| Item | Description |
 | :--- | :--- |
 | **Both ways** | If you check this, the rule applies for both directions, eg. if set for PRG-LHR, it applies also for LHR-PRG. |
 
 ![](../.gitbook/assets/image%20%2861%29.png)
 
-| **Pole** | Popis |
+| Item | Description |
 | :--- | :--- |
 | **Origin & Destination** | Without restrictions - for any departure and arrival point |
 |  | IATA code - IATA code of the destination |
@@ -36,7 +36,7 @@ To add a new commission, click on the button:
 
 ![](../.gitbook/assets/image%20%289%29.png)
 
-| **Pole** | Popis |
+| Item | Description |
 | :--- | :--- |
 | **Commission** | Fixed - a fixed amount of the commission in agency's default currency |
 |  | % - a percentual amount of the commission calculated from the fare amount |
@@ -45,14 +45,14 @@ To add a new commission, click on the button:
 
 ![](../.gitbook/assets/image%20%2835%29.png)
 
-| **Pole** | Popis |
+| Item | Description |
 | :--- | :--- |
 | **Booking class \(RBD\)** | Booking classes that are allowed in the booking in order for the rule to apply. |
 |  |  |
 
 ![](../.gitbook/assets/image%20%2820%29.png)
 
-| **Pole** | Popis |
+| Item | Description |
 | :--- | :--- |
 | **Marketing carriers** | Without restrictions - the booking can include any marketing carrier, there are no restrictions. |
 |  | Different marketing carriers - the rule applies only if the itinerary includes at least one marketing carrier, other than the plating carrier. |
@@ -61,7 +61,7 @@ To add a new commission, click on the button:
 
 ![](../.gitbook/assets/image%20%286%29.png)
 
-| **Pole** | Popis |
+| Item | Description |
 | :--- | :--- |
 | **Operating carriers** | Without restrictions -  the booking can include any operating carrier, there are no restrictions. |
 |  | Operated only by some of the listed - the itinerary can include only the listed operating carriers. This option offers a field where you can enter IATA codes of the carriers separated by comma. |
@@ -70,7 +70,7 @@ To add a new commission, click on the button:
 
 ![](../.gitbook/assets/image%20%2862%29.png)
 
-| **Pole** | Popis |
+| Item | Description |
 | :--- | :--- |
 | **Priority** | Priorities are used in case there are several different commissions defined for a particular carrier. GOL IBE then proceeds as follows: 1. It retrieves all rules for the plating carrier from the booking, 2. It sorts the rules based on the defined _Priority_, 3. It takes the rule with the highest priority \(higher number = higher priority\) and it checks whether it can be applied to the booking. If so, it records the relevant commission to the booking. If not, it applies the next rule in line based on priority. |
 
@@ -78,7 +78,7 @@ To add a new commission, click on the button:
 
 ![](../.gitbook/assets/image%20%2844%29.png)
 
-| **Pole** | Popis |
+| Item | Description |
 | :--- | :--- |
 | **One way flights** | If you check this, the rule is applied only for one-way flights. |
 | **Return flights** | If you check this, the rule is applied only for return flights. |
@@ -88,7 +88,7 @@ To add a new commission, click on the button:
 
 ![](../.gitbook/assets/image%20%287%29.png)
 
-| Pole | Popis |
+| Item | Description |
 | :--- | :--- |
 | Sales since - till | Here you can set up the period during which the commission is active. |
 | Departures \(Returns\) since - till | Here you can set up the allowed date range for the journey. |

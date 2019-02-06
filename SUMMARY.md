@@ -24,9 +24,9 @@
 * [Parallel requests](pokrocila-nastaveni/paraleleni-dotazovani.md)
 * [Offering external services](pokrocila-nastaveni/nabidka-externich-sluzeb.md)
 * [Service fee from airline commission](pokrocila-nastaveni/servisni-poplatek-z-provize-letecke-spolecnosti.md)
-* [MultiPCC dotazování](pokrocila-nastaveni/multipcc-dotazovani.md)
-* [Export dat](pokrocila-nastaveni/export-dat/README.md)
+* [MultiPCC requests](pokrocila-nastaveni/multipcc-dotazovani.md)
+* [Data exports](pokrocila-nastaveni/export-dat/README.md)
   * [Informace o rezervacích v CSV](pokrocila-nastaveni/export-dat/informace-o-rezervacich-v-csv.md)
   * [MIR](pokrocila-nastaveni/export-dat/mir.md)
-* [Slovníček](pokrocila-nastaveni/slovnicek.md)
+* [Glossary](pokrocila-nastaveni/slovnicek.md)
 

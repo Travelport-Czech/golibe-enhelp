@@ -6,7 +6,7 @@ All notifications are already pre-set for you.
 
 In the clear table of set notifications, you can see columns showing to whom the emails are delivered.
 
-| **To** | Popis |
+| **To** | Description |
 | :--- | :--- |
 | **Customer** | Delivered to the customer who entered their email address during the booking process |
 | **Dealer** | Delivered to the delaer whose email address is set in the section **Dealers** |

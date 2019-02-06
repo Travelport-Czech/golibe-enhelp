@@ -1,6 +1,6 @@
-# Slovníček
+# Glossary
 
-| Validační dopravce | Dopravce na kterého je vystavená letenka \(plating carrier\) |
+| Plating carrier | Carrier for which the ticket is issued |
 | :--- | :--- |
 
 

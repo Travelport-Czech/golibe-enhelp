@@ -1,32 +1,32 @@
-# MultiPCC dotazování
+# MultiPCC requests
 
-Funkcionalita dovoluje nastavit, prohledávat a vracet nabídky z více trhů a zákazníkům je přehledně zobrazovat najednou v jednom seznamu a jedné měně. Získané ceny tak odpovídají tarifům a availabilitám dostupným například v Německu, Rakousku, Ukrajině, nebo v jakékoliv jiné zemi. Funkcionalita zahrnuje kompletní podporu přepočtů měn a současně i široké možnosti nastavení, kdy a kde vyhledávat pro kterou zemi, a to i se statistikou úspěšnosti.
+This feature allows you to set up, search and get offers from multiple markets. The offers are clearly displayed together in one list and one currency. The prices reflect fares and availabilities from eg. Germany, Austria, Ukraine and any other countries. The MultiPCC functionality fully supports currency conversions and a wide range of settings, such as when and where to search in which countries, including statistics of successful searches.
 
-Tato sekce slouží k založení profilů pro dotazování na jiných PCC, než jsou výchozí, nastavení v [Nastavení agentury](https://bo.golibe.com/help/cz/Nastaveniagentury.html).
+In this section, you can create profiles for sending requests to PCCs other than the default one set up in [Agency profile](profil-agentury.md).
 
-Seznam nastavených profilů
+List of created profiles
 
 ![](../.gitbook/assets/image%20%2818%29.png)
 
-**Úprava profilu MultiPCC dotazování**
+**Editing of MultiPCC request profile**
 
-Úpravy je možné provádět kliknutím na tlačítko Edit na řádku příslušného profilu.
+You can edit the profile by clicking the **Edit** button at the end of the row with the relevant profile.
 
-Základní nastavení týkající se komunikace s GDS zůstává stejné jako u [Nastavení agentury](https://bo.golibe.com/help/cz/Nastaveniagentury.html).
+The basic settings for communication with the GDS remains the same as in [Agency profile](profil-agentury.md).
 
 ![](../.gitbook/assets/image%20%2816%29.png)
 
 ![](../.gitbook/assets/image%20%2837%29.png)
 
-Nastavení je rozšířeno o sekci Měna a převod.
+This settings also includes the section **Currency and conversion**.
 
 ![](../.gitbook/assets/image%20%2856%29.png)
 
-| Pole | Popis |
+| Item | Description |
 | :--- | :--- |
-| **Trh** | Výběr trhu, na který je HAP vázán. |
-| **Měna PCC v Galileu** | Výběr měny PCC v Galileu. |
-| **Přepočet kurzem z Galilea** | Nastavení, zda bude cena přepočtena kurzem z Galilea, nebo fixním zadaným kurzem. |
-| **S multiplikátorem / Pevný kurz měny** | Vázáno na nastavení Přepočet kurzem z Galilea. S Multiplikátorem: Vyplněná hodnota slouží jako násobitel měny. Pevný kurz měny: Přepočetní kurz pro násobení. |
-| **Shodné nabídky zobrazovat jen pokud jsou levnější o** | Pole slouží k rozhodování, zda se budou zobrazovat nabídky na FE, pokud jsou levnější o vyplněnou hodnotu v poli. |
+| **Market** | Selection of the market to which your HAP is connected. |
+| **PCC currency in Galileo** | Selection of your Galileo GDS PCC. |
+| **Exchange rate provided by Galileo** | Here you can set up whether the price should be converted using the Galileo exchange rate, or a fixed exchange rate. |
+| **With multiplier / Fixed exchange rate** | This item is related to the checkbox _Exchange rate provided by Galileo_. With multiplier: the ticket price is multipled by the entered amount. Fixed exchange rate: an exchange rate used for multiplication. |
+| **Display relevant offers only if they're cheaper by** | Here you can decide to display offers at your front-end that are cheaper by the entered amount. |
 

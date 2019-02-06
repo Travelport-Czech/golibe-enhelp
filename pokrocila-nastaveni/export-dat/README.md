@@ -1,8 +1,8 @@
-# Export dat
+# Data exports
 
-Exporty dat slouží k hlubším analýzám a současně přenosu informací do vašich účetních nebo statistických systémů. Zvolte si variantu, která Vám nejlépe vyhovuje.
+Data exports are useful for deeper analysis and also for transferring information to your accounting and statistical systems. Choose the format that suits you best.
 
-Informace o rezervacích ve formátu CSV.
+Information about bookings in the CSV format. 
 
 [MIR \(Machine Interface Record\)](mir.md)
 

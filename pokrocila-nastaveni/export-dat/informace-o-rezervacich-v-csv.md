@@ -1,34 +1,34 @@
 # Informace o rezervacích v CSV
 
-Export dat CSV si můžete vygenerovat v menu **Statistiky** pod položkou **Rezervace letenek v CSV**.
+You can export the CSV data under **Statistics** and **Air tickets reservations in CSV**.
 
-Ve vyexportovaném souboru, najdete následující sloupce \(informace oddělené čárkou\):
+In the exported file, you will find the following columns \(information separated by comma\):
 
-| Název | Co představuje |
+| Name | What it represents |
 | :--- | :--- |
-| Id | Pořadové číslo záznamu |
-| Connector | Z jakého zdroje dat rezervace pochází |
-| Status | V jakém stavu se aktuálně nachází rezervace |
-| Traveler | Počet cestujících mimo kojenců |
-| Infants | Počet kojenců v rezervaci |
-| Agency | Jméno agentury |
-| Agency country | Zěme ze které pochází agentura |
-| Dealer | Jméno dealera |
-| Reservation date | Datum rezervace |
-| Reservation year | Rok ve kterém byla vytvořena rezervace |
-| Reservation month | Měsíc ve kterém byla vytvořena rezervace |
-| From | Místo odletu - IATA kód letiště |
-| City from | Místo odletu - nadřazený IATA kód města |
-| Country from | Místo odletu - kód země ve které leží letiště |
-| Where | Cíl cesty - IATA kód letiště |
-| City where | Cíl cesty - nadřazený IATA kód letiště |
-| Country where | Cíl cesty - kód země ve které leží letiště |
-| Type | Typ cesty |
-| Departure | Datum odletu |
-| Arrival | Datum v cíli cesty |
-| Reservation segment | Počet letů v itineráři pronásobený počtem pasažérů \(nazapočítán infant\) |
-| Itinerary segment | Počet letů v itineráři |
-| Base price | Cena tarifu |
-| Total price | Celková cena |
-| Service fee price | Výše servisního poplatku |
+| Id | Serial number of the record |
+| Connector | The source of the booking data |
+| Status | Current status of the booking |
+| Traveler | Number of passengers excluding infants |
+| Infants | Number of infants in the booking |
+| Agency | Travel agency name |
+| Agency country | Country of origin of the travel agency |
+| Dealer | Dealer name |
+| Reservation date | Date of booking |
+| Reservation year | The year in which the booking was created |
+| Reservation month | The month in which the booking was created |
+| From | Departure point - airport IATA code |
+| City from | Departure point - parent IATA code of the city |
+| Country from | Departure point - code of the country where the airport is located |
+| Where | Destination - airport IATA code |
+| City where | Destination - parent IATA code of the airport |
+| Country where | Destination - code of the country where the airport is located |
+| Type | Type of journey |
+| Departure | Departure date |
+| Arrival | Arrival date |
+| Reservation segment | Number of flights in the itinerary multiplied by the number of passengers \(excluding infants\) |
+| Itinerary segment | Number of flights in the itinerary |
+| Base price | Price of the fare |
+| Total price | Total price |
+| Service fee price | Amount of the service fee |
 

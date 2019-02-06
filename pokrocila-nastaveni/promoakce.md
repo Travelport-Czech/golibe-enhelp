@@ -30,7 +30,7 @@ The settings page is divided into several sections \(mandatory fields are in bol
 
 ![](../.gitbook/assets/image%20%2833%29.png)
 
-| Pole | Popis |
+| Item | Description |
 | :--- | :--- |
 | **Valid since - till** | Time period during which the special offer is shown to customers on your website. |
 | **Departure since - till** | Time period during which departure is possible. |
@@ -41,7 +41,7 @@ The settings page is divided into several sections \(mandatory fields are in bol
 
 ![](../.gitbook/assets/image%20%283%29.png)
 
-| Pole | Popis |
+| Item | Description |
 | :--- | :--- |
 | **Use a manually set up fee** | If you don't check this, the service fee is calculated based on the default settings for air ticket service fees. |
 | **Ticket price** | Price of tickets and taxes. The total price of air ticket + taxes is compared with the quote in the GDS, and if the price in the GDS is higher by more than 10 %, such connection will be marked as not available. |
@@ -54,7 +54,7 @@ The settings page is divided into several sections \(mandatory fields are in bol
 
 ![](../.gitbook/assets/image%20%2840%29.png)
 
-| Pole | Popis |
+| Item | Description |
 | :--- | :--- |
 | **Last measurement of cache** | The last time when information about flights has been retrieved. |
 | **Number of availability requests** | The number of availability requests sent during the last update of the special offer. |
@@ -70,7 +70,7 @@ The availability information is refreshed based on how the special offer is used
 
 ![](../.gitbook/assets/image%20%281%29.png)
 
-| Pole | Popis |
+| Item | Description |
 | :--- | :--- |
 | **Validate by robot** | If you check this, the data is automatically refreshed regularly. |
 | **Display** | If you check this, the special offer is shown to customers at your front-end. |
@@ -87,8 +87,8 @@ The availability information is refreshed based on how the special offer is used
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Pole</th>
-      <th style="text-align:left">Popis</th>
+      <th style="text-align:left">Item</th>
+      <th style="text-align:left">Description</th>
     </tr>
   </thead>
   <tbody>
@@ -112,7 +112,7 @@ In case of return connections, you need to do the same in the section _Backward_
 
 ![](../.gitbook/assets/image%20%2829%29.png)
 
-| Pole | Popis |
+| Item | Description |
 | :--- | :--- |
 | **Origin \(IATA code\)** | IATA code of the departure point. |
 | **Destination \(IATA code\)** | IATA code of the arrival point. |
@@ -124,7 +124,7 @@ In case of return connections, you need to do the same in the section _Backward_
 
 ![](../.gitbook/assets/image%20%2836%29.png)
 
-| Pole | Popis |
+| Item | Description |
 | :--- | :--- |
 | **Search together with following** | If you check this, availability is verified together with the following segment based on O&D, ie. for the whole journey. Otherwise, availability is verified for individual segments separately for each part of the journey. |
 | **Inhibit status link** | If you check this, availability is not verified at the carrier via seamless availability, even if it's possible. If not checked, a higher use intensity can negatively impact the ratio between the number of requests sent to the carrier and the number of bookings, which may lead to sanctions from the carrier. |
