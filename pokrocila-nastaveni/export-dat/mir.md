@@ -10,14 +10,14 @@ Besides the standard content, GOL IBE adds the following items to the bookings, 
 
 **A12PRGM \*00420123123123**  
 **A12** _- section in which you can find the information  
-**PRGM** **\***_ _- statistical information_  
+**PRGM** **\***_ _- static parameter_  
 **00420123123123** _- customer's phone number_
 
 ## Customer's email address:
 
 **A12PRGE \*MARTIN//TRAVELPORTGDS.CZ  
 A12** _- section in which you can find the information_  
-**PRGE \*** - _statistical information_  
+**PRGE \*** - _static parameter_  
 _**MARTIN//TRAVELPORTGDS.CZ** - \_email address, // is used instead of @ \(the reservation system uses @ for other special features and therefore this character is not used\)._
 
 ## Billing address:
@@ -35,6 +35,6 @@ If the customer doesn't enter any of the above details, it is replaced with "NON
 
 **A1500VARIABLE SYMBOL:785972  
 A1500** - _section in which you can find the information_  
-**VARIABLE SYMBOL:** _- statistical information_  
+**VARIABLE SYMBOL:** _- static parameter_  
 **785972** _- numeric variable symbol_
 
