@@ -39,7 +39,5 @@ For example:
 | **{passenger.1.age}** | 30 | Age of the 1st passenger \(if not entered, GOL IBE enters 30\) |
 | **{passenger.1.birthdate}** | 1986-12-06 | Date of birth of the 1st passenger \(if not entered, GOL IBE enters a date for the age of 30\) |
 
-You can add everything through the section **Supporting texts**. You can add the link to 
-
-Vše vložíte přes Menu **Doprovodné texty**, kam můžete link vložit do typ textu: **Letenky - Text - Stránka úspěšná rezervace letenky**
+You can add everything in the section **Supporting texts**, text type **Air ticket - Electronic ticket**.
 
