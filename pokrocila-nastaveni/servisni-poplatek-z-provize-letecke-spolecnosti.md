@@ -1,40 +1,40 @@
-# Servisní poplatek z provize letecké společnosti
+# Service fee from airline commission
 
-Jde o speciální a méně používanou alternativou k navýšení ceny letenky o servisní poplatek. Je zde využita provize od letecké společnosti jako zisk. Využívá se v případě, kdy již nechcete cenu letenky nijak zákazníkům navyšovat, ale uvažujete, že zobrazíte cenu rovnou z rezervačního systému, protože víte, že vám provizi poskytne letecká společnost - například 9 %, což je v tomto případě váš výdělek.
+This is a special and less used alternative to adding a service fee to the ticket price. Instead, you use the airline commission as your profit. You would do this in case you don't want to increase the ticket price for your customers anymore but you consider to to display the price right from the reservation system because you that the airline gives you a commission \(eg. 9 %\), which is then your profit.
 
-Zde máte samozřejmě možnost postupovat podle předchozí varianty popsané v kapitole [Servisní poplatky](../zakladni-nastaveni/untitled.md) a nastavit servisní poplatek ve výši 0. čímž cenu nenavýšíte, ale v seznamu rezervací ani neuvidíte kolik na letence vyděláváte. Připravíte se tím ale o možnost snížit cenu letenky o část svého výdělku ze poplatku od letecké společnosti.
+In this case, you can follow the steps described in the chapter [Service fees](../zakladni-nastaveni/untitled.md) and set your service fee to 0. This way you don't increase the price, however you won't be able to see in the list of bookings how much you earn on that ticket. And you won't be able to lower the ticket price by a part of your commission from the airline.
 
-Máte možnost se podělit o provizi s Dealerem a část provize věnovat na snížení ceny letenky koncovému zákazníkovi.
+You can share your commission with your Dealers and to waive a part of your commission to lower the ticket price for end customers. 
 
-Příklad kalkulace:  
-Fare: 1 250 CZK
+Example of calculation:  
+Fare: CZK 1 250
 
-## Taxy: 3 900 CZK
+## Taxes: 3 900 CZK
 
-Cena zobrazená zákazníkovi celkem: 5 150 CZK
+The total price displayed to customers: CZK 5 150
 
-Vaše provize: 9 %
+Your commission: 9 %
 
-To znamená, že v seznamu rezervací uvidíte:
+It means that you will see in the list of bookings:
 
-* Cenu Faru poníženou o 9 % \(112,5\): 1 137,5 CZK
-* Servisní poplatek \(9 %\): 112,5 CZK
+* Price of the Fare decreased by 9 % \(112.5\): CZK 1 137.5 CZK
+* Service fee \(9 %\): CZK 112.5
 
-Nastavení kalkulace s provizí provedete v **Ceny –&gt; Servisní poplatky letenek – agentura**.
+You can set up the commission calculation under **Price -&gt; Service fees - agency**.
 
-Pokud se rozhodnete, že se podělíte s dealerem a dáte mu 50 % vaší provize, pak v seznamu rezervací uvidíte:
+If you decide to share with your Dealer and you give them 50 % of your provision, you will see in the list of bookings:
 
-* Cenu Faru poníženou o 9 % \(112,5\): 1 137,5 CZK
-* Servisní poplatek \(9 %\): 112,5 CZK
-* Výši provize: 56,25 CZK \(k vyplacení dealerovi\)
+* Price of the Fare decreased by 9 % \(112.5\): CZK 1 137.5
+* Service fee \(9 %\): CZK 112.5
+* Commission: CZK 56.25 \(to be paid to the Dealer\)
 
-Nastavení slevy pro Dealera provedete v **Ceny –&gt; Servisní poplatky letenek - dealer**.
+You can set up the discount for Dealers under **Price -&gt; Service fees - dealer**.
 
-Pokud se dealer rozhodne, že ze svých 50 % věnuje 30 % na slevu ceny, uvedenou pro zákazníka, pak v seznamu rezervací uvidíte:
+If the Dealer decides that he shares 30 % of his 50 % as a discount off the price displayed to customers, you will see in the list of bookings:
 
-* Cenu Faru poníženou o \(\(\(9 % \(112,5\)\) + \(30 % z 50 % \(56,25\)\) = 16,875\) = 129,375\): 1 120,625 CZK
-* Servisní poplatek \(9 %\): 112,5 CZK
-* Výši provize: 56,25 CZK
+* Price of the Fare decreased by \(\(\(9 % \(112.5\)\) + \(30 % of 50 % \(56.25\)\) = 16.875\) = 129.375\): CZK 1 120.625
+* Service fee \(9 %\): CZK 112.5
+* Commission: CZK 56.25
 
-Nastavení slevy pro zákazníka provedete v **Dealeři**.
+You can set up the discount for customers under **Dealers**.
 
