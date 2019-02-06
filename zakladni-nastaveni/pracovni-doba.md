@@ -10,9 +10,9 @@ You can set working hours for each day, including a lunch break, for example 9:0
 
 ## The logic of setting working hours
 
-This setting is a protection against a situation when your customer books a ticket at 17:35, but your office closes at 17:30. The booking must be e-ticketed on the same day but there's nobody at your office to do it. The same applies to weekends and days off in general. Your working hours are always compared to the latest ticketing date. The latest ticketing date displayed to customers is determined based on the fare conditions \(this can be limited in the settings\). However, thanks to the working hours settings, it is limited to the day when your agency is open so that there's enough time for the e-ticketing.
+This setting is a protection against a situation when your customer books a ticket at 17:35, but your office closes at 17:30. The booking must be e-ticketed on the same day but there's nobody at your office to do it. The same applies to weekends and days off in general. Your working hours are always compared to the last ticketing date. The last ticketing date displayed to customers is determined based on the fare conditions \(this can be limited in the settings\). However, thanks to the working hours settings, it is limited to the day when your agency is open so that there's enough time for the e-ticketing.
 
-In order for this feature to function properly, it is also necessary to define for individual payment methods how much time within the working hours is needed to handle a business case. The default setting is 1 hour. This way you can affect which payment methods are offered when the latest date of e-ticketing is approaching. If you want this date to match the date of booking \(ie. it has to be issued "immediately"\), you can set a higher value for the other payment methods and those are not offered at all.
+In order for this feature to function properly, it is also necessary to define for individual payment methods how much time within the working hours is needed to handle a business case. The default setting is 1 hour. This way you can affect which payment methods are offered when the last date of e-ticketing is approaching. If you want this date to match the date of booking \(ie. it has to be issued "immediately"\), you can set a higher value for the other payment methods and those are not offered at all.
 
 You can encounter three different situations:
 
@@ -24,7 +24,7 @@ You can encounter three different situations:
 
 Go to **Agency -&gt; Working hours modifications**
 
-Here you can define exceptions to the set up working hours, ie. to define public holidays and other days when your agency is closed. At this moment, there's no code list available for public holidays. If you need to define these days, please do so manually.
+Here you can define exceptions to the set working hours, ie. to define public holidays and other days when your agency is closed. At this moment, there's no code list available for public holidays. If you need to define these days, please do so manually.
 
 ![](../.gitbook/assets/image%20%2839%29.png)
 

@@ -9,7 +9,7 @@ In the clear table of set notifications, you can see columns showing to whom the
 | **To** | Description |
 | :--- | :--- |
 | **Customer** | Delivered to the customer who entered their email address during the booking process |
-| **Dealer** | Delivered to the delaer whose email address is set in the section **Dealers** |
+| **Dealer** | Delivered to the dealer whose email address is set in the section **Dealers** |
 | **Agency** | Delivered to the agency whose email address is set under **Agency -&gt; Agency settings** |
 | **Configurator** | Delivered to the system admin \(only for the purpose of fine-tuning or consultation\) |
 

@@ -14,7 +14,7 @@ An example of how the form is displayed, if the size of the window changes \(on 
 
 You can download the HTML package from the GOL IBE back office:
 
-a\) if you have agency credentials, go to the section **Dealers** -&gt; choose the relevant dealer \(website\), click **Detail**, click on the button **Front-End settings** and then click on the link **Static HTML for download**.
+a\) if you have agency credentials, go to the section **Dealers**, choose the relevant dealer \(website\), click **Detail**, click on the button **Front-End settings** and then click on the link **Static HTML for download**.
 
 b\) if you have dealer credentials, then go straight to **Dealers** -&gt; **Front-End settings** -&gt; link **Static HTML for download**.
 
@@ -67,13 +67,13 @@ Here's an example of the implementation.
 
 ## **For geeks: Customize the default settings of the search form**
 
-In both above cases, parameters of the search form can be predefined and your customers then see them prepopulated.
+In both above cases, parameters of the search form can be predefined and your customers then see them pre-filled.
 
-The easiest way to find out how to create the link is:
+The easiest way to find out how to create the link is to:
 
 * Set up the search form the way you want to predefine the search.
 * Search and get to the page with search results.
-* Find the button _New search_ that would normally get you back to the search form, right-click on it a click _Copy link_.
+* Find the button _New search_ that would normally get you back to the search form, right-click on it and click _Copy link_.
 
 Examples of what you'll get:
 
@@ -91,7 +91,7 @@ If you want to predefine the search form for PRG-LON, omit other parameters in t
 <iframe src="https://xxxx.golibe.com/static.php?action=vFlights&flights[0][origin]=PRG&flights[0][destination]=LON&flights[1][origin]=LON&flights[1][destination]=PRG&searchType=FromFour&travelers[0]=ADT&dateVariants=exact&returnTicket=on&step=one2" scrolling="no" width="530px" height="510px" frameborder="0" allowtransparency="true">
 ```
 
-If you want to redirect your customers straight to the search results and let them wait on the waiting page instead of displaying a blank page, you can add a redirect. Caution: the part after "...redirect=" must be an encoded URL. For example:
+If you want to redirect your customers straight to the search results and let them wait on the waiting page instead of displaying a blank page, you can add a redirection. Caution: the part after "...redirect=" must be an encoded URL. For example:
 
 ```
 https://xxxx.golibe.com/index.php?action=vWait&redirect=http%3A%2F%2Fxxxx.golibe.com%2Findex.php%3Faction%3DvFlights%26flights%5B0%5D%5BdepartureDate%5D%3D2014-11-07%26flights%5B0%5D%5Bdestination%5D%3DPTP%26flights%5B0%5D%5Borigin%5D%3DPAR%26flights%5B0%5D%5BdeparturePlusMinusDay%5D%3D3%26flights%5B1%5D%5BdepartureDate%5D%3D2014-11-14%26flights%5B1%5D%5Bdestination%5D%3DPAR%26flights%5B1%5D%5Borigin%5D%3DPTP%26flights%5B1%5D%5BdeparturePlusMinusDay%5D%3D3%26travelers%5B0%5D%3DADT%26returnTicket%3Don%26vendor%3DTX%26dateVariants%3Dclose%26step%3DChooseFromFour%26target%3Dflights

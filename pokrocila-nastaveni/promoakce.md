@@ -13,11 +13,11 @@ Departures and arrivals for automatically suggested special offers are preset fr
 
 ### Settings
 
-You can change settings of special offers in the back office under **Prices &gt; Special offer extended**. 
+You can change settings of special offers in the back office under **Prices -&gt; Special offer extended**. 
 
 Besides the regular buttons - **DELETE/EDIT/DETAIL** \(detail shows all information as well as edit, but you cannot edit it\) - there are also the following functions:
 
-* Copy special offer – button **COPY**. COPY opens a new special offer for editting, including all items as the original one.
+* Copy special offer – button **COPY**. COPY opens a new special offer for editing, including all items as the original one.
 * Button **RUN CACHE** launches a robot which retrieves information about flights from the reservation system. To display the special offer at your front-end, check the _Display_ box in the detail of the offer.
 
 ![](../.gitbook/assets/image%20%2824%29.png)
@@ -45,10 +45,10 @@ The settings page is divided into several sections \(mandatory fields are in bol
 | :--- | :--- |
 | **Use a manually set up fee** | If you don't check this, the service fee is calculated based on the default settings for air ticket service fees. |
 | **Ticket price** | Price of tickets and taxes. The total price of air ticket + taxes is compared with the quote in the GDS, and if the price in the GDS is higher by more than 10 %, such connection will be marked as not available. |
-| **Service fee** | This is the amount of the service fee, if you checked the option _Use a manually set up fee_. The special offer can use its own fee that can be the same or different from the fee used for regular search. |
+| **Service fee** | This is the amount of the service fee, if you checked the option _**Use a manually set up fee**_**.** The special offer can use its own fee that can be the same or different from the fee used for regular search. |
 | **Service fee for infant in % from** | Here you can set a fee for infants. It is defined as a percentual discount from the price for adult passengers. |
 | **Rounded** | Range of rounding. |
-| Displayed final price | The total price, ie. the combination of _Ticket price_ and _Service fee_. This price is shown to end customers on your website. |
+| **Displayed final price** | The total price, ie. the combination of _**Ticket price**_ and _**Service fee**_. This price is shown to end customers on your website. |
 
 ## 3. Special offer statistics
 
@@ -63,7 +63,7 @@ The settings page is divided into several sections \(mandatory fields are in bol
 Technical notes:
 
 {% hint style="info" %}
-The availability information is refreshed based on how the special offer is used by customers. If a customer finds an unavailable combination, it is no longer offered to the next customers. GOL IBE also refreshes the availability information regularly, at least once every 24 hours during the nighttime.
+The availability information is refreshed based on how the special offer is used by customers. If a customer finds an unavailable combination, it is no longer offered to the next customer. GOL IBE also refreshes the availability information regularly, at least once every 24 hours during the nighttime.
 {% endhint %}
 
 ## 4. Status
@@ -74,7 +74,7 @@ The availability information is refreshed based on how the special offer is used
 | :--- | :--- |
 | **Validate by robot** | If you check this, the data is automatically refreshed regularly. |
 | **Display** | If you check this, the special offer is shown to customers at your front-end. |
-| **Deactivate if quoted price is incorrect** | GOL IBE gets a verification quote for the special offer \(you can see the status in the section _Special offer statistics_. If the price difference is within +/- 10 %, the price is corrected. If the price is outside of this range, for example due to incorrectly set up special offer, and if you activate this option, the offer is not displayed on your website. |
+| **Deactivate if quoted price is incorrect** | GOL IBE gets a verification quote for the special offer \(you can see the status in the section _S**pecial offer statistics**_. If the price difference is within +/- 10 %, the price is corrected. If the price is outside of this range, for example due to incorrectly set up special offer, and if you activate this option, the offer is not displayed on your website. |
 | **Automatic special offer** | Whether the special offer has been created automatically, or not. |
 | **Cached** | Whether the special offer has been cached \(ie. information has been retrieved from the reservation system\), or not. |
 | **Found flights** | Whether available flights have been found in the reservation system for the special offer. |
@@ -106,9 +106,9 @@ The availability information is refreshed based on how the special offer is used
       </td>
     </tr>
   </tbody>
-</table>You need to define each leg of the journey. Simple connections without transfer, such as VIE-CDG, need to be defined in the section _Forward_  as shown in the picture below. In case of connections with transfer, such as VIE-FRA-CDG, you first need to define the leg VIE-FRA, then click the button _Add another flight segment for the same direction_ and add the second leg FRA-CDG to the new field.
+</table>You need to define each leg of the journey. Simple connections without transfer, such as VIE-CDG, need to be defined in the section _Forward_  as shown in the picture below. In case of connections with transfer, such as VIE-FRA-CDG, you first need to define the leg VIE-FRA, then click on the button _**Add another flight segment** **for the same direction**_ and add the second leg FRA-CDG to the new field.
 
-In case of return connections, you need to do the same in the section _Backward_. You can create the return journey by clicking either the button _Add backward route_ where you go through the same process as in case of the forward journey, or the button _Create backward route automatically_ which will automatically create a mirror version of the forward journey.  
+In case of return connections, you need to do the same in the section _**Backward**_. You can create the return journey by clicking either on the button _**Add backward route**_ where you go through the same process as in case of the forward journey, or the button _**Create backward route automatically**_ which will automatically create a mirror version of the forward journey.  
 
 ![](../.gitbook/assets/image%20%2829%29.png)
 
@@ -127,12 +127,12 @@ In case of return connections, you need to do the same in the section _Backward_
 | Item | Description |
 | :--- | :--- |
 | **Search together with following** | If you check this, availability is verified together with the following segment based on O&D, ie. for the whole journey. Otherwise, availability is verified for individual segments separately for each part of the journey. |
-| **Inhibit status link** | If you check this, availability is not verified at the carrier via seamless availability, even if it's possible. If not checked, a higher use intensity can negatively impact the ratio between the number of requests sent to the carrier and the number of bookings, which may lead to sanctions from the carrier. |
+| **Inhibit status link** | If you check this, availability is not verified at the carrier via seamless availability, even if it's possible. If not checked, a higher use intensity can negatively impact the ratio between the number of requests sent to the carrier and the number of bookings, which may lead to sanctions by the carrier. |
 | **Add +1 day** | If you check this, GOL IBE adds one day to the availability verification request. This is useful in special cases of long-haul flights. |
 
 ### How do special offers work? Simplified scheme
 
-1. When you click _RUN CACHE_ or during the regular night refresh of availability of special offers, GOL IBE creates a calendar based on the settings for the onward and return journey. The calendar shows dates for which the availability information needs to be retrieved. GOL IBE retrieves availability for all days shown in the calendar.
+1. When you click _**RUN CACHE**_ or during the regular night refresh of availability of special offers, GOL IBE creates a calendar based on the settings for the onward and return journey. The calendar shows dates for which the availability information needs to be retrieved. GOL IBE retrieves availability for all days shown in the calendar.
 2. Special offers are displayed on your website and when the customer clicks on one of them, GOL IBE shows them calendars with highlighted days on which the selected class is available and the date is not restricted by another condition \(for example AP\).
 3. When the customer selects a date in the calendar for the onward journey, GOL IBE checks your settings to see which dates are available for the return journey. Only those are then highlighted. 
 4. When the customer selects also a date for the return journey, GOL IBE checks availability for this precise combination of days, gets the fare quote and the final price is compared with the one set up in the back office. If the price is higher by more than 10 % or if there's no availability, GOL IBE returns an error notification. Otherwise the customer continues to the next page where they select specific flights.

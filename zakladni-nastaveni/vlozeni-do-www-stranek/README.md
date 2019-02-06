@@ -7,5 +7,5 @@ You can implement the following forms:
 1. [Air ticket search form](vlozeni-vyhledavaciho-formulare-letenek.md)
 2. [List of air ticket special offers](vlozeni-seznamu-promoakci.md)
 3. [Hotel search form](vlozeni-vyhledavaciho-formulare-ubytovani.md)
-4. Login page for registered customers
+4. [Login page for registered customers](stranka-pro-prihlasovani-zakazniku.md)
 

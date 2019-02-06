@@ -26,16 +26,16 @@ You don't need to select any carrier, in which case the rule applies for all car
 
 ![](../.gitbook/assets/image%20%2853%29.png)
 
-| **Item** | Description |
+| Item | Description |
 | :--- | :--- |
 | **Validity conditions** | Generic validity - valid without any limitations |
 
 ![](../.gitbook/assets/image%20%2832%29.png)
 
-| **Item** | Description |
+| Item | Description |
 | :--- | :--- |
 | **Validity conditions** | Valid for destinations - limits the validity to specified types of journeys and connections |
-| **Typ** | OW+RT - valid for one-way and return journeys |
+| **Type** | OW+RT - valid for one-way and return journeys |
 |  | OW - valid for one-way journeys |
 |  | RT - valid for return journeys |
 |  | These rules are not applicable for open-jaw journeys. For those you can only use rules with generic validity \(see above\). |
@@ -44,7 +44,7 @@ You don't need to select any carrier, in which case the rule applies for all car
 
 ![](../.gitbook/assets/image.png)
 
-| **Item** | Description |
+| Item | Description |
 | :--- | :--- |
 | **Validity conditions** | Valid for destination types - limits the validity to groups of destinations |
 | **Type** | OW+RT - valid for one-way and return journeys |
@@ -56,16 +56,16 @@ You don't need to select any carrier, in which case the rule applies for all car
 
 ![](../.gitbook/assets/image%20%2822%29.png)
 
-| **Item** | Description |
+| Item | Description |
 | :--- | :--- |
 | **Set fee value** | Fixed fee - a fixed amount in your default currency |
 | **Fixed fee** | Numerical value of the fee |
 
 ![](../.gitbook/assets/image%20%2848%29.png)
 
-| **Pole** | Popis |
+| Item | Description |
 | :--- | :--- |
-| **Set fee value** | Fixed fee based on price of ticket - fixed amount added, if the price is within a predefined range |
+| **Set fee value** | Fixed fee based on the ticket price - fixed amount added, if the price is within a predefined range |
 | **Fixed fee** | Numerical value of the fee |
 | **Fot tickets with prices from** | The lowest price of the ticket. The fee is applied for prices above this value. |
 | **For tickets with prices to \(incl.\)** | The highest price of the ticket \(inclusive\). The fee is not applied for prices above this value. |
@@ -89,13 +89,13 @@ a\) **You have more Dealers \(websites\)** and you want to define a different se
 
 | Item | Description |
 | :--- | :--- |
-| **Dealer** | Výběr pro kterého dealera nastavení platí |
+| **Dealer** | Selection for which dealer the settings applies |
 
 b\) **You have a registered customer** and you want to define a specific service fee for them. You would usually do this, if you have an important customer \(or a company\) with whom you've negotiated special terms and a special service fee.
 
 ![](../.gitbook/assets/image%20%2850%29.png)
 
-| **Item** | Description |
+| Item | Description |
 | :--- | :--- |
 | **Customer validity** | General valid - not limited to a particular customer |
 |  | Valid for chosen one - a specific registered customer whom you can select from the list. |

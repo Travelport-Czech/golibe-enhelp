@@ -11,10 +11,10 @@ The easiest way to implement the list is to use the following script. If you nee
 ```
 
 {% hint style="warning" %}
-If the HTML includes the element id="GOLJS\_SpecialOffers", the list of special offers will be added there instead of after the loading script. Caution - this option does not switch languages, destinations and countries are returned in the default language.
+If the HTML includes the element id="GOLJS\_SpecialOffers", the list of special offers will be added there instead of after the loading script. Caution - this option does not switch languages, ie. destinations and countries are returned in the default language.
 {% endhint %}
 
-## 2. Configurable implementation, selection of displayed special offers, retrieve of special offers by their name.
+## 2. Configurable implementation, selection of displayed special offers, retrieve of special offers by their name
 
 In this case, the list of special offers is implemented via the following configurable script:
 
@@ -48,7 +48,7 @@ The simplest case where you add just one special offer named \(tagged\): "Offers
        </script>
        </head>
        <body>
-               <script type="text/javascript" src="https://xxxx.golibe.com/gol-js/gol-js-loader_cz.js"></script> // kde xxx je URL základního FE.
+               <script type="text/javascript" src="https://xxxx.golibe.com/gol-js/gol-js-loader_cz.js"></script> // where xxxx is the URL of the basic front-end.
        </body>
 </html>
 ```
