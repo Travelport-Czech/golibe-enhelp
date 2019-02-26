@@ -2,7 +2,7 @@
 
 Airlines tend to give commissions from sold tickets to travel agencies less and less, but they still do. You can easily set up these commissions and GOL IBE then adds them automatically to the bookings.
 
-In the back office, go to **Prices -&gt; Commissions**.
+In the back office, go to **Prices -&gt; Commissions and discounts**.
 
 You will see a list of already set up commissions. You can either delete them by clicking on **DELETE**, or edit them by clicking on **EDIT**.
 
@@ -40,8 +40,6 @@ To add a new commission, click on the button:
 | :--- | :--- |
 | **Commission** | Fixed - a fixed amount of the commission in agency's default currency |
 |  | % - a percentual amount of the commission calculated from the fare amount |
-
-![](https://travelport.gitbooks.io/gol-ibe-cz/content/assets/commission8.png)
 
 ![](../.gitbook/assets/image%20%2835%29.png)
 
@@ -97,9 +95,9 @@ To add a new commission, click on the button:
 
 You can use [this page](https://cm.golibe.com/) to verify how the commissions will be calculated for a specific booking. Let us know and we're happy to create an authorization token for you.
 
-## How to use your commission settings for 3rd-party applications?
+## How to use your commission settings for 3rd-party applications or Travelport Smartpoint addon?
 
-If you wish to use the set commissions also for your other systems, in other words to enter your commissions also to non-GOL IBE bookings, you need to export your settings by clicking on:
+If you wish to use the set commissions also for your other systems like Travelport Smartpoint, in other words to enter your commissions also to non-GOL IBE bookings, you need to export your settings by clicking on:
 
 ![](../.gitbook/assets/image%20%284%29.png)
 
