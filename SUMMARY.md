@@ -3,7 +3,7 @@
 * [GOL IBE – introduction](README.md)
 * [Proven tips](osvedcene-rady.md)
 
-## Basic settings
+## Basic settings <a id="zakladni-nastaveni"></a>
 
 * [Basic setup procedure](zakladni-nastaveni/postup-zakladniho-nastaveni.md)
 * [Implementation into your website](zakladni-nastaveni/vlozeni-do-www-stranek/README.md)
@@ -16,7 +16,7 @@
 * [Working hours](zakladni-nastaveni/pracovni-doba.md)
 * [Email notifications](zakladni-nastaveni/e-mailove-notifikace.md)
 
-## Advanced settings
+## Advanced settings <a id="pokrocila-nastaveni"></a>
 
 * [Agency profile](pokrocila-nastaveni/profil-agentury.md)
 * [Special offers](pokrocila-nastaveni/promoakce.md)

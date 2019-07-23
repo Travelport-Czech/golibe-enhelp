@@ -97,12 +97,12 @@ The availability information is refreshed based on how the special offer is used
       </td>
       <td style="text-align:left">
         <p>Here you can restrict certain flights, in this order:</p>
-        <p>1st field – a figure defining a number of days, or the text <em>SU</em> in
+        <p>1st field &#x2013; a figure defining a number of days, or the text <em>SU</em> in
           case you need to apply the Sunday Rule.</p>
-        <p>2nd field (selection) – specification for the 1st field, whether you mean
-          days or months.</p>
-        <p>3rd field (selection) – specification for the whole rule, whether you
-          mean minimum or maximum number of days/months.</p>
+        <p>2nd field (selection) &#x2013; specification for the 1st field, whether
+          you mean days or months.</p>
+        <p>3rd field (selection) &#x2013; specification for the whole rule, whether
+          you mean minimum or maximum number of days/months.</p>
       </td>
     </tr>
   </tbody>

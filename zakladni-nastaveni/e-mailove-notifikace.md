@@ -26,6 +26,10 @@ If you use SPF, please allow our mail server in your domain settings:
 
 **v=spf1 mx mx:golibe.com ~all**
 
+If your domain already has an SPF record, then you must add the following SPF to the existing record:  
+  
+**include:golibe.com**
+
 Allways add this CNAME record to your domain:
 
 **golibe.\_domainkey.agentura.cz CNAME golibe.\_domainkey.golibe.com**
