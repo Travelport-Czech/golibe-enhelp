@@ -2,7 +2,7 @@
 
 Under **Agency -&gt; Agency settings**, you can change the basic settings affecting the functionality of your GOL IBE.
 
-![](../.gitbook/assets/image%20%2849%29.png)
+![](../.gitbook/assets/image%20%2872%29.png)
 
 | Item | Description |
 | :--- | :--- |
@@ -14,7 +14,7 @@ Here you can set up the connector for air tickets from Galileo GDS.
 
 ### Settings affecting the behaviour of air tickets
 
-![](../.gitbook/assets/image%20%2821%29.png)
+![](../.gitbook/assets/image%20%2829%29.png)
 
 | Item | Description |
 | :--- | :--- |
@@ -31,7 +31,7 @@ Here you can set up the connector for air tickets from Galileo GDS.
 
 ### Settings of communication with Galileo GDS
 
-![](../.gitbook/assets/image%20%2846%29.png)
+![](../.gitbook/assets/image%20%2866%29.png)
 
 | Item | Description |
 | :--- | :--- |
@@ -51,7 +51,7 @@ Here you can set up the connector for air tickets from Galileo GDS.
 | **PNR Queue number - copy** | A Queue within the above set PCC. Created bookings are sent to this Queue. |
 | **PNR Queue category - copy** | Queue categories, in case you use them to sort messages. |
 
-![](../.gitbook/assets/image%20%2858%29.png)
+![](../.gitbook/assets/image%20%2881%29.png)
 
 | Item | Description |
 | :--- | :--- |
@@ -61,11 +61,11 @@ Here you can set up the connector for air tickets from Galileo GDS.
 
 ### Settings of secondary communication with Galileo GDS
 
-![](../.gitbook/assets/image%20%2855%29.png)
+![](../.gitbook/assets/image%20%2878%29.png)
 
 This setting is similar to the one above for the Primary HAP. A secondary HAP is used, if you have multiple PCCs with different settings and for some reason you need to search through two PCCs at the same time and to combine the results. In order for this feature to function properly, complete the settings under **Parallel search**.
 
-![](../.gitbook/assets/image%20%2826%29.png)
+![](../.gitbook/assets/image%20%2838%29.png)
 
 | Item | Description |
 | :--- | :--- |
@@ -76,7 +76,7 @@ This setting is similar to the one above for the Primary HAP. A secondary HAP is
 
 ### Special offers settings
 
-![](../.gitbook/assets/image%20%288%29.png)
+![](../.gitbook/assets/image%20%2810%29.png)
 
 | Item | Description |
 | :--- | :--- |
@@ -85,7 +85,7 @@ This setting is similar to the one above for the Primary HAP. A secondary HAP is
 
 ### Settings of mandatory document information - DOCS
 
-![](../.gitbook/assets/image%20%2857%29.png)
+![](../.gitbook/assets/image%20%2880%29.png)
 
 | Item | Description |
 | :--- | :--- |
@@ -97,7 +97,7 @@ This setting is similar to the one above for the Primary HAP. A secondary HAP is
 
 ### Settings of mandatory document information - FOID
 
-![](../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/image%20%286%29.png)
 
 | Item | Description |
 | :--- | :--- |

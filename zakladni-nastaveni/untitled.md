@@ -8,13 +8,13 @@ If you use the Dealer module or if you need to define a service fee for a specif
 
 To add a new service fee, click on:
 
-![](../.gitbook/assets/image%20%2843%29.png)
+![](../.gitbook/assets/image%20%2862%29.png)
 
 ## 1. Select carrier
 
 You don't need to select any carrier, in which case the rule applies for all carriers.
 
-![](../.gitbook/assets/image%20%2841%29.png)
+![](../.gitbook/assets/image%20%2859%29.png)
 
 | Item | Description |
 | :--- | :--- |
@@ -24,13 +24,13 @@ You don't need to select any carrier, in which case the rule applies for all car
 
 ## 2. Select validity conditions
 
-![](../.gitbook/assets/image%20%2853%29.png)
+![](../.gitbook/assets/image%20%2876%29.png)
 
 | Item | Description |
 | :--- | :--- |
 | **Validity conditions** | Generic validity - valid without any limitations |
 
-![](../.gitbook/assets/image%20%2832%29.png)
+![](../.gitbook/assets/image%20%2847%29.png)
 
 | Item | Description |
 | :--- | :--- |
@@ -54,14 +54,14 @@ You don't need to select any carrier, in which case the rule applies for all car
 
 ## 3. Set up the service fee
 
-![](../.gitbook/assets/image%20%2822%29.png)
+![](../.gitbook/assets/image%20%2830%29.png)
 
 | Item | Description |
 | :--- | :--- |
 | **Set fee value** | Fixed fee - a fixed amount in your default currency |
 | **Fixed fee** | Numerical value of the fee |
 
-![](../.gitbook/assets/image%20%2848%29.png)
+![](../.gitbook/assets/image%20%2869%29.png)
 
 | Item | Description |
 | :--- | :--- |
@@ -85,7 +85,7 @@ You will find the same settings as in **Service fees - agency**, and something e
 
 a\) **You have more Dealers \(websites\)** and you want to define a different service fee for each of them.
 
-![](../.gitbook/assets/image%20%2817%29.png)
+![](../.gitbook/assets/image%20%2821%29.png)
 
 | Item | Description |
 | :--- | :--- |
@@ -93,7 +93,7 @@ a\) **You have more Dealers \(websites\)** and you want to define a different se
 
 b\) **You have a registered customer** and you want to define a specific service fee for them. You would usually do this, if you have an important customer \(or a company\) with whom you've negotiated special terms and a special service fee.
 
-![](../.gitbook/assets/image%20%2850%29.png)
+![](../.gitbook/assets/image%20%2873%29.png)
 
 | Item | Description |
 | :--- | :--- |

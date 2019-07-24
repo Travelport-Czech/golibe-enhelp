@@ -6,11 +6,11 @@ You can implement the air ticket search form via:
 
 The form is responsive and adjusts to screens of different sizes \(mobile responsiveness\).
 
-![](../../.gitbook/assets/image%20%2859%29.png)
+![](../../.gitbook/assets/image%20%2882%29.png)
 
 An example of how the form is displayed, if the size of the window changes \(on mobile devices\):
 
-![](../../.gitbook/assets/image%20%2813%29.png)
+![](../../.gitbook/assets/image%20%2816%29.png)
 
 You can download the HTML package from the GOL IBE back office:
 

@@ -6,7 +6,7 @@ In this section, you can create profiles for sending requests to PCCs other than
 
 List of created profiles
 
-![](../.gitbook/assets/image%20%2818%29.png)
+![](../.gitbook/assets/image%20%2823%29.png)
 
 **Editing of MultiPCC request profile**
 
@@ -14,13 +14,13 @@ You can edit the profile by clicking on the **Edit** button at the end of the ro
 
 The basic settings for communication with the GDS remains the same as in [Agency profile](profil-agentury.md).
 
-![](../.gitbook/assets/image%20%2816%29.png)
+![](../.gitbook/assets/image%20%2820%29.png)
 
-![](../.gitbook/assets/image%20%2837%29.png)
+![](../.gitbook/assets/image%20%2854%29.png)
 
 This settings also includes the section **Currency and conversion**.
 
-![](../.gitbook/assets/image%20%2856%29.png)
+![](../.gitbook/assets/image%20%2879%29.png)
 
 | Item | Description |
 | :--- | :--- |

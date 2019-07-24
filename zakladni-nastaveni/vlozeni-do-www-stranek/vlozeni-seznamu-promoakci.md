@@ -57,7 +57,7 @@ You can add more names \(tags\) of special offers at once into the script. You a
 
 Also, each special offer can have more names \(tags\). You can then display only the desired groups on your website:
 
-![](../../.gitbook/assets/image%20%2830%29.png)
+![](../../.gitbook/assets/image%20%2844%29.png)
 
 ## 3. Your own implementation
 

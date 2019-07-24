@@ -20,7 +20,7 @@ Besides the regular buttons - **DELETE/EDIT/DETAIL** \(detail shows all informat
 * Copy special offer – button **COPY**. COPY opens a new special offer for editing, including all items as the original one.
 * Button **RUN CACHE** launches a robot which retrieves information about flights from the reservation system. To display the special offer at your front-end, check the _Display_ box in the detail of the offer.
 
-![](../.gitbook/assets/image%20%2824%29.png)
+![](../.gitbook/assets/image%20%2833%29.png)
 
 ### Edit/Add new special offer
 
@@ -28,7 +28,7 @@ The settings page is divided into several sections \(mandatory fields are in bol
 
 ## 1. Basic settings of special offers
 
-![](../.gitbook/assets/image%20%2833%29.png)
+![](../.gitbook/assets/image%20%2848%29.png)
 
 | Item | Description |
 | :--- | :--- |
@@ -39,7 +39,7 @@ The settings page is divided into several sections \(mandatory fields are in bol
 
 ## 2. Prices and fees settings
 
-![](../.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/image%20%284%29.png)
 
 | Item | Description |
 | :--- | :--- |
@@ -52,7 +52,7 @@ The settings page is divided into several sections \(mandatory fields are in bol
 
 ## 3. Special offer statistics
 
-![](../.gitbook/assets/image%20%2840%29.png)
+![](../.gitbook/assets/image%20%2857%29.png)
 
 | Item | Description |
 | :--- | :--- |
@@ -82,7 +82,7 @@ The availability information is refreshed based on how the special offer is used
 
 ## 5. General restrictions
 
-![](../.gitbook/assets/image%20%2811%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 
 <table>
   <thead>
@@ -110,7 +110,7 @@ The availability information is refreshed based on how the special offer is used
 
 In case of return connections, you need to do the same in the section _**Backward**_. You can create the return journey by clicking either on the button _**Add backward route**_ where you go through the same process as in case of the forward journey, or the button _**Create backward route automatically**_ which will automatically create a mirror version of the forward journey.  
 
-![](../.gitbook/assets/image%20%2829%29.png)
+![](../.gitbook/assets/image%20%2843%29.png)
 
 | Item | Description |
 | :--- | :--- |
@@ -122,7 +122,7 @@ In case of return connections, you need to do the same in the section _**Backwar
 | **Fare Basis Carrier** | Code of the carrier to which the Fare Basis belongs \(shown in Fare Display\). In some cases, another marketing carrier can operate the flight using a Fare Basis of its interline partner. |
 | **Button** _**Update conditions**_ | This button refreshes fare conditions from the reservation system. The conditions are shown in other tabs. |
 
-![](../.gitbook/assets/image%20%2836%29.png)
+![](../.gitbook/assets/image%20%2853%29.png)
 
 | Item | Description |
 | :--- | :--- |

@@ -4,7 +4,7 @@ This section allows you to set up working hours. That prevents your customers fr
 
 You can find the settings under **Agency -&gt; Working hours**.
 
-![](../.gitbook/assets/image%20%2825%29.png)
+![](../.gitbook/assets/image%20%2834%29.png)
 
 You can set working hours for each day, including a lunch break, for example 9:00 – 11:30, 12:00 – 17:30. If the agency doesn't have a lunch break, it is necessary to set the entire working time 9:00 – 18:30 in the morning fields.
 
@@ -26,7 +26,7 @@ Go to **Agency -&gt; Working hours modifications**
 
 Here you can define exceptions to the set working hours, ie. to define public holidays and other days when your agency is closed. At this moment, there's no code list available for public holidays. If you need to define these days, please do so manually.
 
-![](../.gitbook/assets/image%20%2839%29.png)
+![](../.gitbook/assets/image%20%2856%29.png)
 
 {% hint style="warning" %}
 If you set only a date, it means that your agency is closed whole day. If you set time Since - Till, you limit your working hours on that day only to the defined period of time.
